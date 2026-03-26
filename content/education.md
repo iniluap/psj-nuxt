@@ -1,6 +1,7 @@
 ## My education
 
 ::card
+
 ### Accessibility (self-study)
 
 #### Deque University
@@ -16,9 +17,11 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 - Device-Independent User Input Methods
 - Conformance Testing, Detailed Methodology
 - Usability Testing for Accessibility
+
 ::
 
 ::card
+
 ### Programming (self-study)
 
 #### Online trainings & on-site workshops
@@ -32,9 +35,11 @@ workshops. The events I benefited from the most were:
 - WarsawJS - Workshop #50: Unit testing (2020)
 - WarsawJS - Workshop #37: Typescript for intermediate developers (2019)
 - Frontend United - CSS and SVG in 2019 by Lea Verou and Chris Lilley (2019)
+
 ::
 
 ::card
+
 ### English Philology, B.A.
 
 #### University of Silesia in Katowice

@@ -1,6 +1,7 @@
 ## Community work
 
 ::card
+
 ### PyLight Waw
 
 #### Organiser
@@ -17,6 +18,7 @@ accounts, and managed events on-site.
 ::
 
 ::card
+
 ### PyLight Waw #8
 
 #### Speaker
@@ -31,6 +33,7 @@ I delivered a presentation on the basic concepts of Scrum.
 ::
 
 ::card
+
 ### DjangoGirls Warsaw
 
 #### Organiser
@@ -46,6 +49,7 @@ I managed the event website, trained mentors, and designed printed and online gr
 ::
 
 ::card
+
 ### CISV International
 
 #### Training Coordinator & Youth Leader

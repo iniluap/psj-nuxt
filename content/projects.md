@@ -1,6 +1,7 @@
 ## Projects
 
 ::card
+
 ### Product Accessibility Working Group
 
 #### GitLab
@@ -16,6 +17,7 @@ documentation and training materials.
 ::
 
 ::card
+
 ### WCAG 2.0 compliance
 
 #### Instapage - Enterprise landing-page building platform
@@ -29,6 +31,7 @@ Finally, I created an in-house video tutorial on how to use our platform to crea
 ::
 
 ::card
+
 ### Enterprise website & blog
 
 #### Postclick marketing blog

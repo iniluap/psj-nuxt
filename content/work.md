@@ -1,14 +1,15 @@
 ## How I work
 
 ::workExample
+
 ### Ideation & Discovery
 
 I believe great features start with understanding the problem
 deeply. When exploring new ideas, I collaborate early with
 stakeholders. As an accessibility expert, I ensure inclusive
 design is part of the conversation, not an afterthought.
-I research technical feasibility. I  investigate how new
-functionality fits into the current ecosystem. I  specialize in
+I research technical feasibility. I investigate how new
+functionality fits into the current ecosystem. I specialize in
 analysing legacy codebase and breaking down steps to work with tech
 debt.
 
@@ -17,9 +18,11 @@ debt.
 - Jira
 - Confluence
 - GSuite
+
 ::
 
 ::workExample
+
 ### Design Handover
 
 The transition from design to development is critical. My approach
@@ -34,9 +37,11 @@ system or justify new patterns.
 
 - Design systems
 - Figma
+
 ::
 
 ::workExample
+
 ### Implementation
 
 My development process emphasizes quality, maintainability, and
@@ -53,9 +58,11 @@ patterns for future maintainers.
 - Vue.js
 - GraphQL
 - Command Line
+
 ::
 
 ::workExample
+
 ### Testing & Quality Assurance
 
 Quality is non-negotiable. My testing approach includes ensuring
@@ -72,9 +79,11 @@ technologies.
 - Cypress
 - Capybara
 - axe-core
+
 ::
 
 ::workExample
+
 ### Code Review
 
 Code review is where knowledge sharing and quality come together.
@@ -88,9 +97,11 @@ people's work promptly.
 
 - Git
 - GitLab
+
 ::
 
 ::workExample
+
 ### Measuring Impact
 
 Work doesn’t stop when code is accepted. I verify my features in
@@ -101,9 +112,11 @@ time.
 
 - Sentry
 - Sitespeed.io
+
 ::
 
 ::workExample
+
 ### Collaboration & Mentorship
 
 Engineering is a team sport, and leadership means uplifting
