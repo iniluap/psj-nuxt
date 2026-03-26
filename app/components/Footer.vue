@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-  const date = new Date().getFullYear();
+  const date: number = new Date().getFullYear();
 </script>
 
 <style scoped>
