@@ -6,6 +6,8 @@
 <template>
   <NuxtRouteAnnouncer />
   <Header />
+  <Nav />
+  <MobileNav />
   <NuxtPage />
   <Footer />
 </template>
