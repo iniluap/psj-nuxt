@@ -6,4 +6,5 @@
 <template>
   <NuxtRouteAnnouncer />
   <NuxtPage />
+  <Footer />
 </template>
