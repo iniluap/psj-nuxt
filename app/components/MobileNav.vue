@@ -57,8 +57,9 @@
     class="close-trigger"
     @click="setVisibility(false)">
     <Icon
-      name="uil:xmark"
-      title="Close menu" />
+      name="mdi:close"
+      size="2rem"
+      aria-hidden="true" />
   </button>
   <button
     v-else
@@ -66,8 +67,9 @@
     class="open-trigger"
     @click="setVisibility(true)">
     <Icon
-      name="uil:bars"
-      title="Open menu" />
+      name="mdi:menu"
+      size="2rem"
+      aria-hidden="true" />
   </button>
 </template>
 
