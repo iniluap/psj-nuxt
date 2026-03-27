@@ -11,10 +11,9 @@ if (!page.value) {
 </script>
 
 <template>
-  <main>
-    <ContentRenderer
-      v-if="page"
-      :value="page"
-    />
-  </main>
+  <ContentRenderer
+    v-if="page"
+    :value="page"
+    id="main-content"
+  />
 </template>

@@ -34,6 +34,19 @@ main {
   max-width: 1000px;
   margin: 0 auto;
   padding: 4rem var(--whitespace-primary);
+  display: grid;
+  grid-template-rows: auto min-content 1fr min-content;
+  grid-template-areas:
+    'header'
+    'nav'
+    'content'
+    'footer';
+  gap: var(--whitespace-primary);
+  align-items: start;
+}
+
+article {
+  grid-area: content;
 }
 
 .m-top-3 {
