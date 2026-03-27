@@ -1,6 +1,8 @@
 ## Projects
 
-::card
+::cardWrapper
+
+::card{.card-wide}
 
 ### Product Accessibility Working Group
 
@@ -16,7 +18,7 @@ on accessibility best practices and contribute to internal
 documentation and training materials.
 ::
 
-::card
+::card{.card-wide}
 
 ### WCAG 2.0 compliance
 
@@ -46,4 +48,6 @@ I set up the blog with the Gutenberg editor on a WordPress website.
 I integrated the CMS editor with the company UI library to allow using predefined styles.
 On the frontend I created modular components with subtle interactions for images & text hovers,
 and reading lenght counter.
+::
+
 ::

@@ -12,6 +12,10 @@
     padding: 1rem;
   }
 
+  .card-wide {
+    grid-column: 1 / span 2;
+  }
+
   h3 {
     margin-bottom: 1rem;
     font-size: 2.2rem;

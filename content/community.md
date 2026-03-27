@@ -1,5 +1,7 @@
 ## Community work
 
+::cardWrapper
+
 ::card
 
 ### PyLight Waw
@@ -62,4 +64,6 @@ resolution on both local and international level, for children, young adults and
 [CISV Poland](https://pl.cisv.org/)
 
 [CISV International](https://cisv.org/)
+::
+
 ::

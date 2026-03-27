@@ -1,6 +1,8 @@
 ## My education
 
-::card
+::cardWrapper
+
+::card{.card-wide}
 
 ### Accessibility (self-study)
 
@@ -20,7 +22,7 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 
 ::
 
-::card
+::card{.card-wide}
 
 ### Programming (self-study)
 
@@ -47,4 +49,6 @@ workshops. The events I benefited from the most were:
 2015
 
 Thesis in applied linguistics on socio-cultural images of femininity in newspaper discourse.
+::
+
 ::
