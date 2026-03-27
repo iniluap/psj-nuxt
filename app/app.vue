@@ -13,7 +13,6 @@
   <main>
     <Header />
     <Nav />
-    <MobileNav />
     <NuxtPage />
     <Footer />
   </main>
