@@ -42,11 +42,29 @@ workshops. The events I benefited from the most were:
 
 ::card
 
+### Digital Hygiene
+
+#### Open University, University of Warsaw
+
+December 2025
+
+I participated in intensive workshop focused on proactive habits and practices
+for working with LLMs. Some of the topics that had an impact on my work:
+
+- Typology of work with generative AI
+- Over-reliance, deskilling and cognitive debt
+- Carl Newport’s “deep work” concept
+- Silent impacts of using AI
+
+::
+
+::card
+
 ### English Philology, B.A.
 
 #### University of Silesia in Katowice
 
-2015
+2012 - 2015
 
 Thesis in applied linguistics on socio-cultural images of femininity in newspaper discourse.
 ::
