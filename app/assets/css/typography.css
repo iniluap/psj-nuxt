@@ -19,6 +19,11 @@ h6 {
   letter-spacing: 0.25rem;
 }
 
+h2 {
+  font-size: 3rem;
+  margin: 0 0 var(--whitespace-primary);
+}
+
 a {
   color: var(--dark-grey);
   text-decoration-color: var(--secondary-rose);

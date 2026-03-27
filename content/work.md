@@ -13,11 +13,11 @@ functionality fits into the current ecosystem. I specialize in
 analysing legacy codebase and breaking down steps to work with tech
 debt.
 
-- Agile
-- Scrum
-- Jira
-- Confluence
-- GSuite
+- :icon{name="mdi:rugby"} Scrum
+- :icon{name="mdi:arrow-decision"} Agile
+- :icon{name="mdi:jira"} Jira
+- :icon{name="fa7-brands:confluence"} Confluence
+- :icon{name="fa7-brands:google"} GSuite
 
 ::
 
@@ -35,8 +35,8 @@ states, and responsive breakpoints, clarifying interactions and edge
 cases. I ensure designs leverage existing components and design
 system or justify new patterns.
 
-- Design systems
-- Figma
+- :icon{name="mdi:palette-swatch"} Design systems
+- :icon{name="fa7-brands:figma"} Figma
 
 ::
 
@@ -51,13 +51,13 @@ proper ARIA roles and attributes, and keyboard navigation.
 I document complex logic, architectural decisions, and usage
 patterns for future maintainers.
 
-- HTML
-- CSS
-- SASS
-- JavaScript ES6
-- Vue.js
+- :icon{name="fa7-brands:html5"} HTML
+- :icon{name="fa7-brands:css3"} CSS
+- :icon{name="fa7-brands:sass"} SASS
+- :icon{name="fa7-brands:js"} JavaScript ES6
+- :icon{name="fa7-brands:vuejs"} Vue.js
 - GraphQL
-- Command Line
+- :icon{name="fa7-solid:terminal"} Command Line
 
 ::
 
@@ -75,10 +75,10 @@ and prevent reintroduction of fixed bugs. I manually test my work
 to ensure excellent user experience with or without assistive
 technologies.
 
-- Jest
-- Cypress
-- Capybara
-- axe-core
+- :icon{name="fa7-solid:flask"} Jest
+- :icon{name="fa7-solid:c"} Cypress
+- :icon{name="fa7-solid:gem"} Capybara
+<!-- - :icon{name="fa7-solid:universal-access"} axe-core -->
 
 ::
 
@@ -95,8 +95,8 @@ I see reviews of my code as learning opportunities.
 I prioritize keeping team velocity high by reviewing other
 people's work promptly.
 
-- Git
-- GitLab
+- :icon{name="fa7-brands:git"} Git
+- :icon{name="fa7-brands:gitlab"} GitLab
 
 ::
 
