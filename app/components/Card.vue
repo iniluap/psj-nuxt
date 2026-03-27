@@ -10,6 +10,11 @@
     border: 2px solid var(--primary-green);
     box-shadow: var(--layered-shadow);
     padding: 1rem;
+    margin-bottom: 5rem;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: unset;
+    }
   }
 
   .card-wide {
