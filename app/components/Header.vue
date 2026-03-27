@@ -64,10 +64,15 @@
     margin-bottom: 0;
     display: flex;
     justify-content: center;
-
+    overflow: hidden;
+    
     @media (min-width: 768px) {
       margin: 0;
-      max-width: 350px;
     }
+  }
+
+  img {
+    max-width: 350px;
+    width: 100%;
   }
 </style>

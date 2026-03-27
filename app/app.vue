@@ -7,7 +7,7 @@
   <NuxtRouteAnnouncer />
   <a
     href="#main-content"
-    className="sr-only">
+    class="sr-only">
     Skip to content
   </a>
   <main>
