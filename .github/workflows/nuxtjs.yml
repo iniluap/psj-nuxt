@@ -39,8 +39,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Static HTML export with Nuxt
-        env:
-          NUXT_APP_BASE_URL: /psj-nuxt/
         run: yarn nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
