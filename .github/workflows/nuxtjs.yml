@@ -56,7 +56,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Static HTML export with Nuxt
-        run: yarn nuxt build --preset github_pages
+        run: yarn nuxt build --preset github_pages --logLevel==verbose
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
