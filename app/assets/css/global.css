@@ -69,8 +69,12 @@ article {
 :focus.sr-only {
   width: auto;
   height: auto;
-  top: 2rem;
+  top: 1rem;
   left: 2rem;
   overflow: auto;
   clip: auto;
+}
+
+:focus-visible {
+  outline-color: var(--secondary-blue);
 }

@@ -8,11 +8,11 @@
 
 #### GitLab
 
-2026
+[2026]{.date}
 
 I [facilitated discussion between UX, Product, Backend and Tech writing stakeholders](https://gitlab.com/gitlab-org/gitlab/-/work_items/580999#note_2939942530),
 ensuring feature constrains are defined and edge cases planned for. By [refactoring existing components](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/217416),
-I was able to implement a reusable UI communicating with backend via GraphQL [query(https://gitlab.com/gitlab-org/gitlab/-/merge_requests/221525)]
+I was able to implement a reusable UI communicating with backend via GraphQL [query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/221525)
 and [mutation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/222330).
 
 ::
@@ -23,7 +23,7 @@ and [mutation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/222330).
 
 #### GitLab
 
-2025
+[2025]{.date}
 
 I worked on a major version upgrade of GitLab’s Storybook, followed by [adding the Storybook test-runner](https://gitlab.com/gitlab-org/gitlab/-/work_items/507448)
 to be used both locally and in CI/CD. This initiative allowed out-of-the-box automated accessibility
@@ -38,9 +38,9 @@ providing short feedback loop for code authors and reviewers.
 
 #### GitLab
 
-2024
+[2024]{.date}
 
-I led the architectural initiative from c[onception](https://gitlab.com/gitlab-org/gitlab/-/work_items/486950#note_2100423617)
+I led the architectural initiative from [conception](https://gitlab.com/gitlab-org/gitlab/-/work_items/486950#note_2100423617)
 through [implementation](https://gitlab.com/gitlab-org/gitlab/-/work_items/497051), managing complex codebase
 changes. This initiative addressed growing complexity in the repository header area by consolidating fragmented
 Vue.js applications.
@@ -57,7 +57,7 @@ I identified and proactively addressed cross-team dependencies to ensure success
 
 #### GitLab
 
-2023 - present, Warsaw, Poland
+[2023 - present, Warsaw, Poland]{.date}
 
 I lead GitLab's [Product Accessibility Working Group](https://handbook.gitlab.com/handbook/company/working-groups/product-accessibility/), where we focus on defining technical strategies for
 accessibility automations and tools adoption. I coordinate with
@@ -73,7 +73,7 @@ documentation and training materials.
 
 #### Instapage - Enterprise landing-page building platform
 
-2020 - 2021, Warsaw, Poland
+[2020 - 2021, Warsaw, Poland]{.date}
 
 I conducted an internal audit of a landing page building platform against WCAG 2.0 compliance.
 I created a compliance roadmap with a list of recommendations and technical specification.
@@ -87,7 +87,7 @@ Finally, I created an in-house video tutorial on how to use our platform to crea
 
 #### Postclick marketing blog
 
-2020, Warsaw, Poland
+[2020, Warsaw, Poland]{.date}
 
 As a sole frontend developer, I developed a highly responsive website.
 I implemented a design based on 8-point grid, subtle user interactions,

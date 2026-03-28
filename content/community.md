@@ -8,7 +8,7 @@
 
 #### Organiser
 
-2017 - 2020, Warsaw, Poland
+[2017 - 2020, Warsaw, Poland]{.date}
 
 I organised a monthly meetup for beginners in Python. I was one of
 the people who updated and tweaked the website, ran social media
@@ -25,7 +25,7 @@ accounts, and managed events on-site.
 
 #### Speaker
 
-Sep 2018, Warsaw, Poland
+[Sep 2018, Warsaw, Poland]{.date}
 
 I delivered a presentation on the basic concepts of Scrum.
 
@@ -40,7 +40,7 @@ I delivered a presentation on the basic concepts of Scrum.
 
 #### Organiser
 
-Dec 2016 - Feb 2019, Warsaw, Poland
+[Dec 2016 - Feb 2019, Warsaw, Poland]{.date}
 
 I co-organised two editions of a programming workshop for a group of 45 women.
 I managed the event website, trained mentors, and designed printed and online graphic materials.
@@ -56,7 +56,7 @@ I managed the event website, trained mentors, and designed printed and online gr
 
 #### Training Coordinator & Youth Leader
 
-Jun 2014 - 2019, EMEA & Poland
+[Jun 2014 - 2019, EMEA & Poland]{.date}
 
 I designed and conducted trainings on peace education, sustainable development and conflict
 resolution on both local and international level, for children, young adults and adult volounteers.

@@ -11,8 +11,10 @@
         <br />
         Sedlak-Jakubowska
       </h1>
-      <h2>senior frontend engineer</h2>
-      <h2>& accessibility expert</h2>
+      <h2>
+        senior frontend engineer<br />
+        & accessibility expert
+      </h2>
     </div>
   </header>
 </template>
@@ -65,7 +67,7 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    
+
     @media (min-width: 768px) {
       margin: 0;
     }

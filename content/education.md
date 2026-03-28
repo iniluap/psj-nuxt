@@ -8,7 +8,7 @@
 
 #### Deque University
 
-2024-2025
+[2024-2025]{.date}
 
 I completed Comprehensive Web and Digital Accessibility Training
 covering web, documents, PDF, mobile apps, and more. This training
@@ -28,7 +28,7 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 
 #### Online trainings & on-site workshops
 
-since 2016
+[since 2016]{.date}
 
 I learned programming by taking on-line courses, tutorials and
 reading industry books. I also participated in commmunity
@@ -46,7 +46,7 @@ workshops. The events I benefited from the most were:
 
 #### Open University, University of Warsaw
 
-December 2025
+[December 2025]{.date}
 
 I participated in intensive workshop focused on proactive habits and practices
 for working with LLMs. Some of the topics that had an impact on my work:
@@ -64,7 +64,7 @@ for working with LLMs. Some of the topics that had an impact on my work:
 
 #### University of Silesia in Katowice
 
-2012 - 2015
+[2012 - 2015]{.date}
 
 Thesis in applied linguistics on socio-cultural images of femininity in newspaper discourse.
 ::
