@@ -33,6 +33,10 @@ export default defineNuxtConfig({
       anchorLinks: false
     }
   },
+  sourcemap: {
+    server: true,
+    client: true
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/icon',
