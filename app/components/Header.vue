@@ -1,11 +1,13 @@
 <template>
   <header>
     <figure>
-      <img
-        src="/img/header-image.png"
-        alt="Paulina Sedlak-Jakubowska" />
+      <NuxtImg
+        src="/header-image.png"
+        loading="eager"
+        alt="The photo of Paulina Sedlak-Jakubowska. A caucasian woman in her 30's, with shoulder length brown hair and big glasses. Wearing a green longsleeve. Sitting inside an office space."
+        sizes="100vw md:350px" />
     </figure>
-    <div>
+    <div class="header-text-container">
       <h1>
         Paulina
         <br />
@@ -25,36 +27,32 @@
     box-shadow: var(--layered-shadow);
 
     @media screen and (min-width: 768px) {
-      background-color: var(--primary-green);
       padding: var(--whitespace-primary);
       display: flex;
-      gap: 4rem;
-      align-items: end;
-    }
-
-    img {
-      @media screen and (min-width: 768px) {
-        height: min-content;
-      }
+      background-color: var(--primary-green);
     }
   }
 
-  div {
+  .header-text-container {
     background-color: var(--white);
     padding: var(--whitespace-primary);
 
     @media screen and (min-width: 768px) {
       margin-top: 0;
       position: relative;
-      left: -6rem;
+      left: -2rem;
       top: 0;
       flex: 1;
       align-self: center;
     }
 
+    @media screen and (min-width: 1024px) {
+      left: -4rem;
+    }
+
     h1 {
-      font-size: clamp(3rem, 6vw, 4rem);
       margin: 0.5rem 0;
+      font-size: clamp(3rem, 6vw, 4rem);
     }
 
     h2 {
@@ -66,7 +64,7 @@
     margin-bottom: 0;
     display: flex;
     justify-content: center;
-    overflow: hidden;
+    align-items: center;
 
     @media (min-width: 768px) {
       margin: 0;
@@ -76,5 +74,9 @@
   img {
     max-width: 350px;
     width: 100%;
+
+    @media (min-width: 768px) {
+      width: 350px;
+    }
   }
 </style>

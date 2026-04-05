@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light&display=swap'
+          href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Shadows+Into+Light&display=swap'
         }
       ]
     }
@@ -32,6 +32,25 @@ export default defineNuxtConfig({
     renderer: {
       anchorLinks: false
     }
+  },
+  image: {
+    dir: 'assets/images',
+    screens: {
+      md: 768,
+      lg: 1024,
+      xl: 1280
+    }
+  },
+  fonts: {
+    defaults: {
+      weights: [300, 800],
+      styles: ['normal'],
+      subsets: ['latin', 'latin-ext']
+    },
+    families: [
+      { name: 'Open Sans', provider: 'google' },
+      { name: 'Shadows Into Light', provider: 'google' }
+    ]
   },
   sourcemap: {
     server: true,
