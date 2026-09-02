@@ -152,7 +152,6 @@
   }
 
   .nav-link {
-    padding: 0.5rem;
     display: inline-block;
     font-size: 1.5rem;
     text-decoration: underline var(--white) wavy 0.2rem;
