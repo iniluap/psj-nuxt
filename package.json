@@ -22,7 +22,7 @@
     "@nuxt/image": "^2.0.0",
     "@nuxt/test-utils": "4.0.0",
     "better-sqlite3": "^12.8.0",
-    "nuxt": "^4.4.2"
+    "nuxt": "^4.5.2"
   },
   "devDependencies": {
     "@iconify-json/fa7-brands": "^1.2.2",
