@@ -83,7 +83,6 @@
 
     @media screen and (min-width: 768px) {
       all: unset;
-      padding: var(--whitespace-secondary) 0;
     }
   }
 
@@ -149,6 +148,12 @@
 
     @media screen and (min-width: 768px) {
       margin-bottom: unset;
+    }
+  }
+
+  a {
+    @media screen and (min-width: 768px) {
+      color: var(--white);
     }
   }
 </style>

@@ -33,7 +33,7 @@ main {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 4rem var(--whitespace-primary);
+  padding: 12rem var(--whitespace-primary) 4rem;
   display: grid;
   grid-template-rows: auto min-content 1fr min-content;
   grid-template-areas:

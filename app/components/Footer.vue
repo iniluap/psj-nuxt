@@ -44,6 +44,10 @@
     color: var(--dark-grey);
   }
 
+  ul {
+    margin-top: 1.5rem;
+  }
+
   a {
     font-size: 2rem;
 
