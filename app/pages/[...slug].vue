@@ -17,7 +17,7 @@
 </script>
 
 <template>
-  <Header v-if="isIndexPage()" />
+  <HeroSection v-if="isIndexPage()" />
   <ContentRenderer
     v-if="page"
     :value="page"
