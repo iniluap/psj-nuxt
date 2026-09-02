@@ -34,18 +34,6 @@ a {
   }
 }
 
-.nav-link {
-  padding: 0.5rem;
-  display: inline-block;
-  font-size: 1.5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  &:hover {
-    text-decoration: underline var(--secondary-rose);
-  }
-}
-
 .center {
   text-align: center;
 }

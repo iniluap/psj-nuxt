@@ -151,9 +151,20 @@
     }
   }
 
-  a {
+  .nav-link {
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: underline var(--primary-green) wavy 0.2rem;
+    text-transform: uppercase;
+    transition: var(--transition);
+
     @media screen and (min-width: 768px) {
       color: var(--white);
+    }
+
+    &:hover {
+      text-decoration-color: var(--primary-yellow);
     }
   }
 </style>
