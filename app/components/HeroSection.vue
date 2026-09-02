@@ -22,20 +22,26 @@
 
 <style scoped>
   section {
-    padding: var(--whitespace-primary);
-    display: flex;
+    @media screen and (min-width: 480px) {
+      padding: var(--whitespace-primary);
+      display: flex;
+    }
   }
 
   .header-text-container {
     background-color: var(--white);
     padding: 1rem;
     border: 0.5rem solid var(--primary-green);
-    margin-top: 0;
-    margin-left: -4rem;
+    margin-top: -6rem;
     flex: 1;
     align-self: center;
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 480px) {
+      margin-left: -4rem;
+      margin-top: 0;
+    }
+
+    @media screen and (min-width: 768px) {
       padding: var(--whitespace-primary);
     }
   }
@@ -56,6 +62,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: -1;
 
     @media (min-width: 992px) {
       margin: 0;
@@ -63,11 +71,17 @@
   }
 
   img {
-    max-width: 350px;
     width: 100%;
 
-    @media (min-width: 992px) {
+    @media (min-width: 480px) {
+      width: 200px;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    @media (min-width: 768px) {
       width: 350px;
+      height: auto;
     }
   }
 </style>
