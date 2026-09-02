@@ -6,7 +6,7 @@
 
 <style scoped>
   section {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       display: grid;
       gap: 5rem;
       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));

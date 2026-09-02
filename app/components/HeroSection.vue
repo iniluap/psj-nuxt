@@ -27,7 +27,7 @@
     background-color: var(--white);
     box-shadow: var(--layered-shadow);
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       padding: var(--whitespace-primary);
       display: flex;
       background-color: var(--primary-green);
@@ -38,7 +38,7 @@
     background-color: var(--white);
     padding: var(--whitespace-primary);
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       margin-top: 0;
       position: relative;
       left: -2rem;
@@ -69,7 +69,7 @@
     justify-content: center;
     align-items: center;
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       margin: 0;
     }
   }
@@ -78,7 +78,7 @@
     max-width: 350px;
     width: 100%;
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       width: 350px;
     }
   }

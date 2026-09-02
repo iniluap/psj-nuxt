@@ -8,7 +8,7 @@
   .work-example-section {
     margin-top: 6rem;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       display: grid;
       grid-template-columns: 24rem 1fr;
       align-items: start;
@@ -27,7 +27,7 @@
       gap: 1.5rem;
       list-style: none;
 
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 992px) {
         margin: 0;
         margin-top: 0.5rem;
         grid-area: 2 / 2;
