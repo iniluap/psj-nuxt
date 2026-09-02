@@ -1,5 +1,4 @@
-I'm Paulina, a Senior Frontend Engineer and accessibility specialist
-based in Warsaw. For the past 8 years, I've built interfaces used by
+For the past 8 years, I've built interfaces used by
 millions of people daily, with a focus on making the web accessible to
 everyone.
 
@@ -22,7 +21,7 @@ build works seamlessly with assistive technologies.
 Before tech, I studied English philology with a focus on
 sociolinguistics and taught English as Second Language. I've always
 been interested in how language shapes power and perception. I'm
-particularly focused on AI discourse: the anthropomorphization in
+particularly interested in AI discourse: the anthropomorphization in
 chatbot interfaces, the promises made by AI companion marketing,
 and how narratives about AI "taking over" jobs and the world can overshadow
 present-day social issues - like impacts on mental health, labor practices,
