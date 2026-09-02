@@ -9,14 +9,15 @@
     </figure>
     <div class="header-text-container">
       <h1>
-        Paulina
+        Hi, I'm Paulina
         <br />
         Sedlak-Jakubowska
+        <br />
+        <strong>
+          senior frontend engineer<br />
+          & accessibility expert
+        </strong>
       </h1>
-      <h2>
-        senior frontend engineer<br />
-        & accessibility expert
-      </h2>
     </div>
   </header>
 </template>
@@ -55,8 +56,10 @@
       font-size: clamp(3rem, 6vw, 4rem);
     }
 
-    h2 {
+    strong {
       color: var(--primary-yellow);
+      font-weight: 600;
+      font-size: 3rem;
     }
   }
 
