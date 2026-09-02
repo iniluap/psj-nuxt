@@ -11,8 +11,6 @@
       <h1>
         Hi, I'm Paulina
         <br />
-        Sedlak-Jakubowska
-        <br />
         <strong>
           senior frontend engineer<br />
           & accessibility expert
@@ -24,47 +22,37 @@
 
 <style scoped>
   section {
-    background-color: var(--white);
-    box-shadow: var(--layered-shadow);
-
-    @media screen and (min-width: 992px) {
-      padding: var(--whitespace-primary);
-      display: flex;
-      background-color: var(--primary-green);
-    }
+    padding: var(--whitespace-primary);
+    display: flex;
   }
 
   .header-text-container {
     background-color: var(--white);
-    padding: var(--whitespace-primary);
+    padding: 1rem;
+    border: 0.5rem solid var(--primary-green);
+    margin-top: 0;
+    margin-left: -4rem;
+    flex: 1;
+    align-self: center;
 
     @media screen and (min-width: 992px) {
-      margin-top: 0;
-      position: relative;
-      left: -2rem;
-      top: 0;
-      flex: 1;
-      align-self: center;
-    }
-
-    @media screen and (min-width: 1024px) {
-      left: -4rem;
-    }
-
-    h1 {
-      margin: 0.5rem 0;
-      font-size: clamp(3rem, 6vw, 4rem);
-    }
-
-    strong {
-      color: var(--primary-yellow);
-      font-weight: 600;
-      font-size: 3rem;
+      padding: var(--whitespace-primary);
     }
   }
 
+  h1 {
+    margin: 0.5rem 0;
+    font-size: clamp(3rem, 5vw, 4rem);
+  }
+
+  strong {
+    color: var(--primary-yellow);
+    font-weight: 600;
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+
   figure {
-    margin-bottom: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
