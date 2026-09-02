@@ -1,3 +1,28 @@
+<script lang="ts">
+  const manuItems = [
+    {
+      to: '/',
+      name: 'Home'
+    },
+    {
+      to: '/work',
+      name: 'How I work'
+    },
+    {
+      to: '/education',
+      name: 'My Education'
+    },
+    {
+      to: '/community',
+      name: 'Community work'
+    },
+    {
+      to: '/projects',
+      name: 'Projects'
+    }
+  ];
+</script>
+
 <template>
   <nav
     aria-label="Main navigation"
@@ -19,49 +44,15 @@
       class="ul-plain"
       role="menu"
       aria-label="Main navigation">
-      <li role="none">
+      <li
+        role="none"
+        v-for="item in manuItems">
         <NuxtLink
           role="menuitem"
-          to="/"
+          :to="item.to"
           class="nav-link"
           @click="setVisibility(false)">
-          Home
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/work"
-          class="nav-link"
-          @click="setVisibility(false)">
-          How I work
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/education"
-          class="nav-link"
-          @click="setVisibility(false)">
-          My Education
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/community"
-          class="nav-link"
-          @click="setVisibility(false)">
-          Community work
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/projects"
-          class="nav-link"
-          @click="setVisibility(false)">
-          Projects
+          {{ item.name }}
         </NuxtLink>
       </li>
     </ul>
