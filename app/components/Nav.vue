@@ -101,7 +101,7 @@
     height: 5rem;
     position: fixed;
     right: 0.5rem;
-    top: var(--whitespace-primary);
+    top: 0.75rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -155,12 +155,13 @@
     padding: 0.5rem;
     display: inline-block;
     font-size: 1.5rem;
-    text-decoration: underline var(--primary-green) wavy 0.2rem;
+    text-decoration: underline var(--white) wavy 0.2rem;
     text-transform: uppercase;
     transition: var(--transition);
 
     @media screen and (min-width: 768px) {
       color: var(--white);
+      text-decoration-color: var(--primary-green);
     }
 
     &:hover {
