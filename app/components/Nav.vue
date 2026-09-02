@@ -1,3 +1,28 @@
+<script lang="ts">
+  const manuItems = [
+    {
+      to: '/',
+      name: 'Home'
+    },
+    {
+      to: '/work',
+      name: 'How I work'
+    },
+    {
+      to: '/education',
+      name: 'My Education'
+    },
+    {
+      to: '/community',
+      name: 'Community work'
+    },
+    {
+      to: '/projects',
+      name: 'Projects'
+    }
+  ];
+</script>
+
 <template>
   <nav
     aria-label="Main navigation"
@@ -19,49 +44,15 @@
       class="ul-plain"
       role="menu"
       aria-label="Main navigation">
-      <li role="none">
+      <li
+        role="none"
+        v-for="item in manuItems">
         <NuxtLink
           role="menuitem"
-          to="/"
+          :to="item.to"
           class="nav-link"
           @click="setVisibility(false)">
-          Home
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/work"
-          class="nav-link"
-          @click="setVisibility(false)">
-          How I work
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/education"
-          class="nav-link"
-          @click="setVisibility(false)">
-          My Education
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/community"
-          class="nav-link"
-          @click="setVisibility(false)">
-          Community work
-        </NuxtLink>
-      </li>
-      <li role="none">
-        <NuxtLink
-          role="menuitem"
-          to="/projects"
-          class="nav-link"
-          @click="setVisibility(false)">
-          Projects
+          {{ item.name }}
         </NuxtLink>
       </li>
     </ul>
@@ -90,9 +81,8 @@
     box-shadow: 0px 2px 12px 0px rgb(46 41 51 / 8%);
     transition: var(--transition);
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       all: unset;
-      padding: var(--whitespace-secondary) 0;
     }
   }
 
@@ -111,7 +101,7 @@
     height: 5rem;
     position: fixed;
     right: 0.5rem;
-    top: var(--whitespace-primary);
+    top: 0.75rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -138,13 +128,13 @@
       z-index: 100;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       display: none;
     }
   }
 
   ul {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -156,8 +146,25 @@
   li {
     margin-bottom: 3rem;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       margin-bottom: unset;
+    }
+  }
+
+  .nav-link {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: underline var(--white) wavy 0.2rem;
+    text-transform: uppercase;
+    transition: var(--transition);
+
+    @media screen and (min-width: 992px) {
+      color: var(--white);
+      text-decoration-color: var(--primary-green);
+    }
+
+    &:hover {
+      text-decoration-color: var(--primary-yellow);
     }
   }
 </style>

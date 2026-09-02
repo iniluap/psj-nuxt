@@ -12,7 +12,7 @@
     padding: 1rem;
     margin-bottom: 5rem;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       margin-bottom: unset;
     }
 

@@ -12,7 +12,6 @@
   </a>
   <main>
     <Header />
-    <Nav />
     <NuxtPage />
     <Footer />
   </main>
