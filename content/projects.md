@@ -1,12 +1,12 @@
-## Projects
+# Projects
 
 ::cardWrapper
 
 ::card
 
-### Web-based commit signing
+## Web-based commit signing
 
-#### GitLab
+### GitLab
 
 [2026]{.date}
 
@@ -19,9 +19,9 @@ and [mutation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/222330).
 
 ::card
 
-### Accessibility testing with Storybook
+## Accessibility testing with Storybook
 
-#### GitLab
+### GitLab
 
 [2025]{.date}
 
@@ -34,9 +34,9 @@ providing short feedback loop for code authors and reviewers.
 
 ::card{.card-wide}
 
-### Repository Header Consolidation
+## Repository Header Consolidation
 
-#### GitLab
+### GitLab
 
 [2024]{.date}
 
@@ -53,9 +53,9 @@ I identified and proactively addressed cross-team dependencies to ensure success
 
 ::card{.card-wide}
 
-### Product Accessibility Working Group
+## Product Accessibility Working Group
 
-#### GitLab
+### GitLab
 
 [2023 - present, Warsaw, Poland]{.date}
 
@@ -69,9 +69,9 @@ documentation and training materials.
 
 ::card
 
-### WCAG 2.0 compliance
+## WCAG 2.0 compliance
 
-#### Instapage - Enterprise landing-page building platform
+### Instapage - Enterprise landing-page building platform
 
 [2020 - 2021, Warsaw, Poland]{.date}
 
@@ -83,9 +83,9 @@ Finally, I created an in-house video tutorial on how to use our platform to crea
 
 ::card
 
-### Enterprise website & blog
+## Enterprise website & blog
 
-#### Postclick marketing blog
+### Postclick marketing blog
 
 [2020, Warsaw, Poland]{.date}
 

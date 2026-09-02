@@ -1,8 +1,8 @@
-## How I work
+# How I work
 
 ::workExample
 
-### Ideation & Discovery
+## Ideation & Discovery
 
 I believe great features start with understanding the problem
 deeply. When exploring new ideas, I collaborate early with
@@ -23,7 +23,7 @@ debt.
 
 ::workExample
 
-### Design Handover
+## Design Handover
 
 The transition from design to development is critical. My approach
 includes active participation in design reviews. I provide
@@ -42,7 +42,7 @@ system or justify new patterns.
 
 ::workExample
 
-### Implementation
+## Implementation
 
 My development process emphasizes quality, maintainability, and
 collaboration. I write clean, semantic code following agreed
@@ -63,7 +63,7 @@ patterns for future maintainers.
 
 ::workExample
 
-### Testing & Quality Assurance
+## Testing & Quality Assurance
 
 Quality is non-negotiable. My testing approach includes ensuring
 functionality works across modern browsers and respects feature
@@ -84,7 +84,7 @@ technologies.
 
 ::workExample
 
-### Code Review
+## Code Review
 
 Code review is where knowledge sharing and quality come together.
 I review for correctness, performance, accessibility,
@@ -102,7 +102,7 @@ people's work promptly.
 
 ::workExample
 
-### Measuring Impact
+## Measuring Impact
 
 Work doesn’t stop when code is accepted. I verify my features in
 the production environment and monitor their impact on the product.
@@ -117,7 +117,7 @@ time.
 
 ::workExample
 
-### Collaboration & Mentorship
+## Collaboration & Mentorship
 
 Engineering is a team sport, and leadership means uplifting
 others. I work closely with backend engineers on API design, with

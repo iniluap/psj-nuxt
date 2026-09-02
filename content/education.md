@@ -1,12 +1,12 @@
-## My education
+# My education
 
 ::cardWrapper
 
 ::card{.card-wide}
 
-### Accessibility (self-study)
+## Accessibility (self-study)
 
-#### Deque University
+### Deque University
 
 [2024-2025]{.date}
 
@@ -24,9 +24,9 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 
 ::card{.card-wide}
 
-### Programming (self-study)
+## Programming (self-study)
 
-#### Online trainings & on-site workshops
+### Online trainings & on-site workshops
 
 [since 2016]{.date}
 
@@ -42,9 +42,9 @@ workshops. The events I benefited from the most were:
 
 ::card
 
-### Digital Hygiene
+## Digital Hygiene
 
-#### Open University, University of Warsaw
+### Open University, University of Warsaw
 
 [December 2025]{.date}
 
@@ -60,9 +60,9 @@ for working with LLMs. Some of the topics that had an impact on my work:
 
 ::card
 
-### English Philology, B.A.
+## English Philology, B.A.
 
-#### University of Silesia in Katowice
+### University of Silesia in Katowice
 
 [2012 - 2015]{.date}
 

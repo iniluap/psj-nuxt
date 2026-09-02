@@ -1,12 +1,12 @@
-## Community work
+# Community work
 
 ::cardWrapper
 
 ::card
 
-### PyLight Waw
+## PyLight Waw
 
-#### Organiser
+### Organiser
 
 [2017 - 2020, Warsaw, Poland]{.date}
 
@@ -21,9 +21,9 @@ accounts, and managed events on-site.
 
 ::card
 
-### PyLight Waw #8
+## PyLight Waw #8
 
-#### Speaker
+### Speaker
 
 [Sep 2018, Warsaw, Poland]{.date}
 
@@ -36,9 +36,9 @@ I delivered a presentation on the basic concepts of Scrum.
 
 ::card
 
-### DjangoGirls Warsaw
+## DjangoGirls Warsaw
 
-#### Organiser
+### Organiser
 
 [Dec 2016 - Feb 2019, Warsaw, Poland]{.date}
 
@@ -52,9 +52,9 @@ I managed the event website, trained mentors, and designed printed and online gr
 
 ::card
 
-### CISV International
+## CISV International
 
-#### Training Coordinator & Youth Leader
+### Training Coordinator & Youth Leader
 
 [Jun 2014 - 2019, EMEA & Poland]{.date}
 
