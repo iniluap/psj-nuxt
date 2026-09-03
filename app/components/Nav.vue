@@ -154,17 +154,19 @@
   .nav-link {
     display: inline-block;
     font-size: 1.5rem;
-    text-decoration: underline var(--white) wavy 0.2rem;
     text-transform: uppercase;
     transition: var(--transition);
 
     @media screen and (min-width: 992px) {
       color: var(--white);
-      text-decoration-color: var(--primary-green);
-    }
 
-    &:hover {
-      text-decoration-color: var(--tertiary-yellow);
+      &:hover {
+        color: var(--primary-green);
+      }
+
+      &::before {
+        background-color: var(--white);
+      }
     }
   }
 </style>
