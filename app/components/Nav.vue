@@ -101,7 +101,7 @@
     height: 5rem;
     position: fixed;
     right: 0.5rem;
-    top: 0.75rem;
+    top: 1rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;

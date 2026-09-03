@@ -13,7 +13,9 @@
       grid-template-columns: 24rem 1fr;
       align-items: start;
     }
-    h3 {
+
+    h2 {
+      padding-right: 1rem;
       font-size: 2.5rem;
       align-self: center;
     }

@@ -7,7 +7,8 @@
 <style>
   .card {
     background-color: var(--white);
-    border: 2px solid var(--primary-green);
+    border: 2px solid var(--secondary-blue);
+    border-radius: 2rem;
     box-shadow: var(--layered-shadow);
     padding: 1rem;
     margin-bottom: 5rem;
