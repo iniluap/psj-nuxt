@@ -17,7 +17,7 @@
     top: 0;
     color: var(--white);
     box-shadow: var(--layered-shadow);
-    z-index: 100;
+    z-index: 80;
   }
 
   .header-container {
@@ -31,9 +31,7 @@
   }
 
   .logo {
-    font-family: 'Kavivanar', cursive;
-    font-weight: 400;
+    font-family: 'Gilda Display', serif;
     font-size: 2rem;
-    font-style: normal;
   }
 </style>
