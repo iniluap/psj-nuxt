@@ -95,7 +95,7 @@
   }
 
   button {
-    background-color: var(--primary-yellow);
+    background-color: var(--tertiary-yellow);
     color: white;
     width: 5rem;
     height: 5rem;
@@ -117,7 +117,7 @@
     &:focus {
       background-color: var(--secondary-blue);
       color: white;
-      outline: var(--primary-yellow) auto 2px;
+      outline: var(--tertiary-yellow) auto 2px;
     }
 
     &.close-trigger {
@@ -164,7 +164,7 @@
     }
 
     &:hover {
-      text-decoration-color: var(--primary-yellow);
+      text-decoration-color: var(--tertiary-yellow);
     }
   }
 </style>

@@ -60,7 +60,7 @@
     &:hover {
       .fa-linkedin-in,
       .fa-github {
-        color: var(--primary-yellow);
+        color: var(--tertiary-yellow);
       }
     }
 

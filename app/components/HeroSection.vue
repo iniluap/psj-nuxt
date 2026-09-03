@@ -49,10 +49,11 @@
   h1 {
     margin: 0.5rem 0;
     font-size: clamp(3rem, 5vw, 4rem);
+    font-family: 'Raleway', sans-serif;
   }
 
   strong {
-    color: var(--primary-yellow);
+    color: var(--secondary-rose);
     font-weight: 600;
     font-size: clamp(2rem, 4vw, 3rem);
   }

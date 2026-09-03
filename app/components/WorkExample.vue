@@ -36,7 +36,7 @@
 
     li {
       padding: 0.5rem 1.5rem;
-      background-color: var(--primary-green);
+      background-color: var(--secondary-blue);
       box-shadow: var(--layered-shadow);
       border-radius: 2rem;
       color: var(--white);
@@ -49,7 +49,7 @@
 
     p {
       padding-left: var(--whitespace-primary);
-      border-left: 1px solid var(--secondary-blue);
+      border-left: 2px solid var(--tertiary-yellow);
     }
   }
 </style>
