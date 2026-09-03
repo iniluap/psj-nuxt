@@ -3,11 +3,11 @@ millions of people daily, with a focus on making the web accessible to
 everyone.
 
 In 2020, I started working on
-[Instapage](https://www.instapage.com/),
+[Instapage](https://www.instapage.com/){.block-link},
 an enterprise Angular application in the marketing tech field, as
 one of the two frontend engineers. Since 2022, I work as
 a software engineer at
-[GitLab](https://about.gitlab.com/), where
+[GitLab](https://about.gitlab.com/){.block-link}, where
 I contribute to the Source Code Management group and lead the
 Product Accessibility Working group.
 

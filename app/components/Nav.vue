@@ -50,7 +50,7 @@
         <NuxtLink
           role="menuitem"
           :to="item.to"
-          class="nav-link"
+          class="block-link nav-link"
           @click="setVisibility(false)">
           {{ item.name }}
         </NuxtLink>

@@ -25,11 +25,12 @@ h1 {
   margin: 0 0 var(--whitespace-primary);
 }
 
-a {
+.block-link {
   color: var(--dark-grey);
   text-decoration: none;
   position: relative;
   transition: var(--transition);
+  z-index: 1;
 
   &::before {
     content: '';
@@ -50,6 +51,16 @@ a {
       bottom: 0;
       height: 110%;
     }
+  }
+}
+
+.inline-link {
+  color: var(--dark-grey);
+  text-decoration-color: var(--tertiary-yellow);
+  text-decoration-thickness: 0.25rem;
+
+  &:hover {
+    text-decoration-color: var(--secondary-blue);
   }
 }
 
