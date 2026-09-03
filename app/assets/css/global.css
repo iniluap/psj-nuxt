@@ -31,10 +31,7 @@ body {
 
 main {
   min-height: 100vh;
-  width: 100vw;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 12rem var(--whitespace-primary) 4rem;
+  padding: 12rem 0 0;
   display: grid;
   grid-template-rows: auto min-content 1fr min-content;
   grid-template-areas:
@@ -44,6 +41,13 @@ main {
     'footer';
   gap: var(--whitespace-primary);
   align-items: start;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 var(--whitespace-primary);
 }
 
 article {
