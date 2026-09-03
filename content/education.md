@@ -10,7 +10,7 @@
 
 [2024-2025]{.date}
 
-I completed Comprehensive Web and Digital Accessibility Training
+I&nbsp;completed Comprehensive Web and Digital Accessibility Training
 covering web, documents, PDF, mobile apps, and more. This training
 included preparation for the <abbr title="International Association of Accessibility Professionals">
 IAAP</abbr> exam. Some of the modules I've learned the most from are:
@@ -30,13 +30,13 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 
 [since 2016]{.date}
 
-I learned programming by taking on-line courses, tutorials and
-reading industry books. I also participated in commmunity
-workshops. The events I benefited from the most were:
+I&nbsp;learned programming by taking on-line courses, tutorials and
+reading industry books. I&nbsp;also participated in commmunity
+workshops. The events I&nbsp;benefited from the most were:
 
 - WarsawJS - Workshop #50: Unit testing (2020)
 - WarsawJS - Workshop #37: Typescript for intermediate developers (2019)
-- Frontend United - CSS and SVG in 2019 by Lea Verou and Chris Lilley (2019)
+- Frontend United - CSS and SVG in 2019 by Lea&nbsp;Verou and Chris Lilley (2019)
 
 ::
 
@@ -48,7 +48,7 @@ workshops. The events I benefited from the most were:
 
 [December 2025]{.date}
 
-I participated in intensive workshop focused on proactive habits and practices
+I&nbsp;participated in intensive workshop focused on proactive habits and practices
 for working with LLMs. Some of the topics that had an impact on my work:
 
 - Typology of work with generative AI
@@ -62,7 +62,7 @@ for working with LLMs. Some of the topics that had an impact on my work:
 
 ## English Philology, B.A.
 
-### University of Silesia in Katowice
+### University of Silesia&nbsp;in Katowice
 
 [2012 - 2015]{.date}
 
