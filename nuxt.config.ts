@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Shadows+Into+Light&display=swap'
+          href: 'https://fonts.googleapis.com/css2?family=Gilda+Display&family=Kavivanar&family=Raleway:wght@400..800&display=swap'
         }
       ]
     }
@@ -43,13 +43,14 @@ export default defineNuxtConfig({
   },
   fonts: {
     defaults: {
-      weights: [300, 800],
+      weights: [400, 800],
       styles: ['normal'],
       subsets: ['latin', 'latin-ext']
     },
     families: [
-      { name: 'Open Sans', provider: 'google' },
-      { name: 'Shadows Into Light', provider: 'google' }
+      { name: 'Raleway', provider: 'google' },
+      { name: 'Gilda Display', provider: 'google' },
+      { name: 'Kavivanar', provider: 'google' }
     ]
   },
   sourcemap: {

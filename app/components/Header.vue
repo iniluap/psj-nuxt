@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header-container">
-      <span>Paulina Sedlak-Jakubowska</span>
+      <span class="logo">Paulina Sedlak-Jakubowska</span>
       <Nav />
     </div>
   </header>
@@ -17,6 +17,7 @@
     top: 0;
     color: var(--white);
     box-shadow: var(--layered-shadow);
+    z-index: 100;
   }
 
   .header-container {
@@ -27,5 +28,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .logo {
+    font-family: 'Kavivanar', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
   }
 </style>

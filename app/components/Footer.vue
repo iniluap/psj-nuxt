@@ -34,6 +34,8 @@
 
 <style scoped>
   footer {
+    background-color: var(--secondary-rose);
+    padding: 0 var(--whitespace-primary);
     grid-area: footer;
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +43,7 @@
     justify-content: space-between;
     gap: var(--whitespace-primary);
     text-align: center;
-    color: var(--dark-grey);
+    color: var(--white);
   }
 
   ul {
@@ -51,16 +53,15 @@
   a {
     font-size: 2rem;
 
-    .fa-linkedin-in,
-    .fa-github {
+    .iconify {
       transition: var(--transition);
-      color: var(--secondary-blue);
+      color: var(--white);
     }
 
     &:hover {
-      .fa-linkedin-in,
-      .fa-github {
-        color: var(--primary-yellow);
+      .iconify {
+        color: var(--black);
+        scale: 1.5;
       }
     }
 

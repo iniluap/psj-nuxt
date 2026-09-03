@@ -17,9 +17,12 @@
 </script>
 
 <template>
-  <HeroSection v-if="isIndexPage()" />
+  <HeroSection
+    v-if="isIndexPage()"
+    class="content-container" />
   <ContentRenderer
     v-if="page"
     :value="page"
+    class="content-container"
     id="main-content" />
 </template>
