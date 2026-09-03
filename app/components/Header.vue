@@ -17,6 +17,7 @@
     top: 0;
     color: var(--white);
     box-shadow: var(--layered-shadow);
+    z-index: 100;
   }
 
   .header-container {

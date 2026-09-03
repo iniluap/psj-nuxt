@@ -78,7 +78,7 @@ technologies.
 - :icon{name="fa7-solid:flask"} Jest
 - :icon{name="fa7-solid:c"} Cypress
 - :icon{name="fa7-solid:gem"} Capybara
-<!-- - :icon{name="fa7-solid:universal-access"} axe-core -->
+- :icon{name="fa7-solid:universal-access"} axe-core
 
 ::
 
@@ -97,6 +97,7 @@ people's work promptly.
 
 - :icon{name="fa7-brands:git"} Git
 - :icon{name="fa7-brands:gitlab"} GitLab
+- :icon{name="fa7-brands:github"} GitHub
 
 ::
 
