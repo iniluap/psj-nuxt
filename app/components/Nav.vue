@@ -9,12 +9,12 @@
       name: 'How I work'
     },
     {
-      to: '/background',
-      name: 'My Background'
-    },
-    {
       to: '/projects',
       name: 'Projects'
+    },
+    {
+      to: '/background',
+      name: 'My Background'
     }
   ];
 </script>
