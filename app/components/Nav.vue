@@ -135,7 +135,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: var(--whitespace-secondary);
+      gap: var(--whitespace-primary);
     }
   }
 

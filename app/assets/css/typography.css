@@ -22,7 +22,11 @@ h6 {
 
 h1 {
   font-size: 3rem;
-  margin: 0 0 var(--whitespace-primary);
+  margin: 0 0 var(--whitespace-secondary);
+}
+
+h2 {
+  margin-bottom: var(--whitespace-secondary);
 }
 
 .block-link {
@@ -81,5 +85,5 @@ ul {
 .ul-links {
   display: flex;
   flex-direction: row;
-  gap: var(--whitespace-primary);
+  gap: var(--whitespace-secondary);
 }

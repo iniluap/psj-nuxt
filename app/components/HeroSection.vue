@@ -23,7 +23,7 @@
 <style scoped>
   section {
     @media screen and (min-width: 480px) {
-      padding: var(--whitespace-primary);
+      padding: var(--whitespace-secondary);
       display: flex;
     }
   }
@@ -42,7 +42,7 @@
     }
 
     @media screen and (min-width: 768px) {
-      padding: var(--whitespace-primary);
+      padding: var(--whitespace-secondary);
     }
   }
 

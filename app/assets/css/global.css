@@ -7,8 +7,8 @@
   --secondary-blue: #416676;
   --secondary-rose: #a13d34;
   --tertiary-yellow: #b38a00;
-  --whitespace-primary: 2rem;
-  --whitespace-secondary: 3rem;
+  --whitespace-primary: 3rem;
+  --whitespace-secondary: 2rem;
   --layered-shadow:
     0px 2px 8px 0px rgba(99, 99, 99, 0.2),
     1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15);
@@ -39,7 +39,7 @@ main {
     'nav'
     'content'
     'footer';
-  gap: var(--whitespace-primary);
+  gap: var(--whitespace-secondary);
   align-items: start;
 }
 
@@ -47,7 +47,7 @@ main {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 var(--whitespace-primary);
+  padding: 0 var(--whitespace-secondary);
 }
 
 article {
@@ -55,7 +55,7 @@ article {
 }
 
 .m-top-3 {
-  margin-top: var(--whitespace-secondary);
+  margin-top: var(--whitespace-primary);
 }
 
 .m-top-4 {
