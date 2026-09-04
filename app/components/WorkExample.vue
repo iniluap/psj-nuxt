@@ -53,7 +53,7 @@
     }
 
     p {
-      padding-left: var(--whitespace-primary);
+      padding-left: var(--whitespace-secondary);
       border-left: 2px solid var(--tertiary-yellow);
     }
   }

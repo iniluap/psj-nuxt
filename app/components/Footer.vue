@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <ul class="m-top-3 ul-plain ul-links">
+    <ul class="ul-plain ul-links">
       <li>
         <a
           aria-label="Visit my linkedIn profile"
@@ -35,13 +35,13 @@
 <style scoped>
   footer {
     background-color: var(--secondary-rose);
-    padding: 0 var(--whitespace-primary);
+    padding: 0 var(--whitespace-secondary);
     grid-area: footer;
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
-    gap: var(--whitespace-primary);
+    gap: var(--whitespace-secondary);
     text-align: center;
     color: var(--white);
   }
@@ -60,7 +60,6 @@
 
     &:hover {
       .iconify {
-        color: var(--black);
         scale: 1.5;
       }
     }

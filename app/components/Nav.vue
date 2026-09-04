@@ -9,16 +9,12 @@
       name: 'How I work'
     },
     {
-      to: '/education',
-      name: 'My Education'
-    },
-    {
-      to: '/community',
-      name: 'Community work'
-    },
-    {
       to: '/projects',
       name: 'Projects'
+    },
+    {
+      to: '/background',
+      name: 'My Background'
     }
   ];
 </script>
@@ -139,7 +135,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: var(--whitespace-secondary);
+      gap: var(--whitespace-primary);
     }
   }
 

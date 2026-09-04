@@ -10,7 +10,7 @@
 <style scoped>
   header {
     width: 100%;
-    padding: var(--whitespace-primary);
+    padding: var(--whitespace-secondary);
     background-color: var(--primary-green);
     position: fixed;
     left: 0;
