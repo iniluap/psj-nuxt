@@ -54,14 +54,6 @@ article {
   grid-area: content;
 }
 
-.m-top-3 {
-  margin-top: var(--whitespace-primary);
-}
-
-.m-top-4 {
-  margin-top: 4rem;
-}
-
 .sr-only {
   position: absolute;
   left: -10000px;

@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <ul class="m-top-3 ul-plain ul-links">
+    <ul class="ul-plain ul-links">
       <li>
         <a
           aria-label="Visit my linkedIn profile"
