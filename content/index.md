@@ -8,15 +8,16 @@ an enterprise Angular application in the marketing tech field, as
 one of the two frontend engineers. Since 2022, I&nbsp;work as
 a&nbsp;software engineer at
 [GitLab](https://about.gitlab.com/){.block-link}, where
-I&nbsp;contribute to the Source Code Management group and lead the
-Product Accessibility Working group.
+I&nbsp;contribute to the <strong>Source Code Management</strong> group
+and lead the <strong>Product Accessibility Working Group</strong>.
 
 My work spans the full development lifecycle - from early ideation and
 design collaboration to implementation, testing, and measuring impact in
-production. I&nbsp;specialize in Vue.js, digital accessibility, and working
-with complex legacy codebases. I'm passionate about well-written and
-well-organised code, inclusive design, and ensuring that every feature I
-build works seamlessly with assistive technologies.
+production. I&nbsp;specialize in <strong>Vue.js</strong>, <strong>digital
+accessibility</strong>, and working with <strong>complex legacy codebases</strong>
+I'm passionate about well-written and well-organised code, inclusive design,
+and ensuring that every feature I&nbsp;build works seamlessly with assistive
+technologies.
 
 Before tech, I&nbsp;studied English philology with a&nbsp;focus on
 sociolinguistics and taught English as Second Language. I've always
