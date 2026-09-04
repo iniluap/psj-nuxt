@@ -54,6 +54,10 @@ article {
   grid-area: content;
 }
 
+hr {
+  margin: var(--whitespace-primary) 0;
+}
+
 .sr-only {
   position: absolute;
   left: -10000px;

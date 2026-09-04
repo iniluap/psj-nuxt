@@ -1,6 +1,6 @@
 # My background
 
-## My education
+## Education
 
 ::cardWrapper
 
