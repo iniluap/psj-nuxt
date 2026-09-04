@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header-container">
-      <span class="logo">Paulina Sedlak-Jakubowska</span>
+      <span class="logo">Paulina Sędłak-Jakubowska</span>
       <Nav />
     </div>
   </header>
