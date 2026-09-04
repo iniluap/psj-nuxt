@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Gilda+Display&family=Kavivanar&family=Raleway:wght@400..800&display=swap'
+          href: 'https://fonts.googleapis.com/css2?family=Gilda+Display&family=Raleway:wght@400..800&display=swap'
         }
       ]
     }
@@ -49,8 +49,7 @@ export default defineNuxtConfig({
     },
     families: [
       { name: 'Raleway', provider: 'google' },
-      { name: 'Gilda Display', provider: 'google' },
-      { name: 'Kavivanar', provider: 'google' }
+      { name: 'Gilda Display', provider: 'google' }
     ]
   },
   sourcemap: {
