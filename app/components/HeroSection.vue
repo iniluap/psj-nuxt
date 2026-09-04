@@ -4,7 +4,7 @@
       <NuxtImg
         src="/header-image.png"
         loading="eager"
-        alt="The photo of Paulina Sedlak-Jakubowska. A caucasian woman in her 30's, with shoulder length brown hair and big glasses. Wearing a green longsleeve. Sitting inside an office space."
+        alt="The photo of Paulina Sedlak-Jakubowska. A caucasian woman in her 30's, with shoulder length brown hair and big glasses. Wearing a green longsleeve."
         sizes="100vw md:350px" />
     </figure>
     <div class="header-text-container">
@@ -22,40 +22,46 @@
 
 <style scoped>
   section {
+    background-image: url('~/assets/images/blob.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -6rem left 6rem;
+
     @media screen and (min-width: 480px) {
-      padding: var(--whitespace-secondary);
+      padding: 4rem var(--whitespace-secondary) var(--whitespace-primary);
+      background-size: 550px auto;
+      background-position: -6rem 0;
       display: flex;
+    }
+
+    @media screen and (min-width: 768px) {
+      background-position: 12rem 1rem;
     }
   }
 
   .header-text-container {
-    background-color: var(--white);
     padding: 1rem;
-    border: 0.5rem solid var(--primary-green);
-    margin-top: -6rem;
-    flex: 1;
-    align-self: center;
+    align-self: end;
 
     @media screen and (min-width: 480px) {
-      margin-left: -4rem;
-      margin-top: 0;
+      margin-left: 4rem;
+      padding: 0;
     }
 
     @media screen and (min-width: 768px) {
-      padding: var(--whitespace-secondary);
+      margin-left: 14rem;
     }
   }
 
   h1 {
-    margin: 0.5rem 0;
+    margin: 0;
     font-size: clamp(3rem, 5vw, 4rem);
-    font-family: 'Raleway', sans-serif;
   }
 
   strong {
     color: var(--secondary-rose);
-    font-weight: 600;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400;
+    font-size: clamp(2rem, 3vw, 2.5rem);
   }
 
   figure {
@@ -63,24 +69,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    z-index: -1;
 
-    @media (min-width: 992px) {
+    @media screen and (min-width: 992px) {
       margin: 0;
     }
   }
 
   img {
     width: 100%;
+    margin-left: -12rem;
 
-    @media (min-width: 480px) {
-      width: 200px;
-      height: 350px;
+    @media screen and (min-width: 480px) {
+      margin-left: 0;
+      width: 250px;
+      height: 450px;
       object-fit: cover;
+      object-position: right bottom;
     }
 
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       width: 350px;
       height: auto;
     }
