@@ -60,7 +60,6 @@
 
     &:hover {
       .iconify {
-        color: var(--black);
         scale: 1.5;
       }
     }
