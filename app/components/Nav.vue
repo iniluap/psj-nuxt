@@ -9,12 +9,8 @@
       name: 'How I work'
     },
     {
-      to: '/education',
-      name: 'My Education'
-    },
-    {
-      to: '/community',
-      name: 'Community work'
+      to: '/background',
+      name: 'My Background'
     },
     {
       to: '/projects',
