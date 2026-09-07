@@ -21,16 +21,16 @@
       margin-bottom: 1rem;
       font-size: 2.2rem;
     }
-
-    h4 {
-      color: var(--secondary-rose);
-      font-family: 'Open Sans', sans-serif;
-      font-size: 1.4rem;
-    }
   }
 
   .card-wide {
     grid-column: 1 / span 2;
+  }
+
+  .card-label {
+    color: var(--secondary-rose);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
   }
 
   .date {

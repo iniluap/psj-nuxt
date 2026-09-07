@@ -8,7 +8,7 @@
 
 ### Accessibility (self-study)
 
-#### Deque University
+[Deque University]{.card-label}
 
 [2024-2025]{.date}
 
@@ -28,7 +28,7 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 
 ### Programming (self-study)
 
-#### Online trainings & on-site workshops
+[Online trainings & on-site workshops]{.card-label}
 
 [since 2016]{.date}
 
@@ -46,7 +46,7 @@ workshops. The events I&nbsp;benefited from the most were:
 
 ### Digital Hygiene
 
-#### Open University, University of Warsaw
+[Open University, University of Warsaw]{.card-label}
 
 [December 2025]{.date}
 
@@ -64,7 +64,7 @@ for working with LLMs. Some of the topics that had an impact on my work:
 
 ### English Philology, B.A.
 
-#### University of Silesia&nbsp;in Katowice
+[University of Silesia&nbsp;in Katowice]{.card-label}
 
 [2012 - 2015]{.date}
 
@@ -83,7 +83,7 @@ Thesis in applied linguistics on socio-cultural images of femininity in newspape
 
 ### PyLight Waw
 
-#### Organiser
+[Organiser]{.card-label}
 
 [2017 - 2020, Warsaw, Poland]{.date}
 
@@ -99,7 +99,7 @@ accounts, and managed events on-site.
 
 ### PyLight Waw #8
 
-#### Speaker
+[Speaker]{.card-label}
 
 [Sep 2018, Warsaw, Poland]{.date}
 
@@ -113,7 +113,7 @@ I&nbsp;delivered a&nbsp;presentation on the basic concepts of Scrum.
 
 ### DjangoGirls Warsaw
 
-#### Organiser
+[Organiser]{.card-label}
 
 [Dec 2016 - Feb 2019, Warsaw, Poland]{.date}
 
@@ -128,7 +128,7 @@ I&nbsp;managed the event website, trained mentors, and designed printed and onli
 
 ### CISV International
 
-#### Training Coordinator & Youth Leader
+[Training Coordinator & Youth Leader]{.card-label}
 
 [Jun 2014 - 2019, EMEa&nbsp;& Poland]{.date}
 

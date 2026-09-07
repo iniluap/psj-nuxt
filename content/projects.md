@@ -6,7 +6,7 @@
 
 ## Web-based commit signing
 
-### GitLab
+[GitLab - Source Code Management]{.card-label}
 
 [2026]{.date}
 
@@ -21,7 +21,7 @@ and [mutation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/222330){.in
 
 ## Accessibility testing with Storybook
 
-### GitLab
+[GitLab - application]{.card-label}
 
 [2025]{.date}
 
@@ -36,7 +36,7 @@ providing short feedback loop for code authors and reviewers.
 
 ## Repository Header Consolidation
 
-### GitLab
+[GitLab - Source Code Management]{.card-label}
 
 [2024]{.date}
 
@@ -55,7 +55,7 @@ I&nbsp;identified and proactively addressed cross-team dependencies to ensure su
 
 ## Product Accessibility Working Group
 
-### GitLab
+[GitLab - design system & application]{.card-label}
 
 [2023 - present, Warsaw, Poland]{.date}
 
@@ -71,7 +71,7 @@ documentation and training materials.
 
 ## WCAG 2.0 compliance
 
-### Instapage - Enterprise landing-page building platform
+[Instapage - Enterprise landing-page building platform]{.card-label}
 
 [2020 - 2021, Warsaw, Poland]{.date}
 
@@ -85,7 +85,7 @@ Finally, I&nbsp;created an in-house video tutorial on how to use our platform to
 
 ## Enterprise website & blog
 
-### Postclick marketing blog
+[Postclick marketing blog]{.card-label}
 
 [2020, Warsaw, Poland]{.date}
 
