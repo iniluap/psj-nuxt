@@ -32,12 +32,10 @@ main {
   min-height: 100vh;
   padding: 12rem 0 0;
   display: grid;
-  grid-template-rows: auto min-content 1fr min-content;
-  grid-template-areas:
-    'header'
-    'nav'
-    'content'
-    'footer';
+  grid-template:
+    'header' min-content
+    'content' min-content
+    'footer' min-content;
   gap: var(--whitespace-secondary);
   align-items: start;
 }
