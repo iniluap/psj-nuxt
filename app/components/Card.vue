@@ -1,12 +1,14 @@
 <template>
   <div class="card">
     <slot />
-    <slot
-      name="label"
-      mdc-unwrap="p" />
-    <slot
-      name="date"
-      mdc-unwrap="p" />
+    <div>
+      <slot
+        name="label"
+        mdc-unwrap="p" />
+      <slot
+        name="date"
+        mdc-unwrap="p" />
+    </div>
     <div>
       <slot name="description" />
     </div>
@@ -20,11 +22,11 @@
     border: 2px solid var(--secondary-blue);
     border-radius: 2rem;
     box-shadow: var(--layered-shadow);
-    padding: 1rem;
+    padding: 2rem;
     margin-bottom: 5rem;
     display: grid;
-    grid-row: span 5;
-    row-gap: 0;
+    grid-row: span 4;
+    gap: 0;
     grid-template-rows: subgrid;
 
     @media screen and (min-width: 992px) {
@@ -42,6 +44,12 @@
     grid-column: 1 / span 2;
   }
 
+  .card-label,
+  .date {
+    display: block;
+    margin-top: 1rem;
+  }
+
   .card-label {
     color: var(--secondary-rose);
     font-family: 'Open Sans', sans-serif;
@@ -50,6 +58,6 @@
 
   .date {
     color: var(--secondary-blue);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 </style>
