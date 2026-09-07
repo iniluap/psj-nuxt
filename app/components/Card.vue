@@ -1,6 +1,16 @@
 <template>
   <div class="card">
-    <slot></slot>
+    <slot />
+    <slot
+      name="label"
+      mdc-unwrap="p" />
+    <slot
+      name="date"
+      mdc-unwrap="p" />
+    <div>
+      <slot name="description" />
+    </div>
+    <slot name="resources" />
   </div>
 </template>
 
@@ -12,13 +22,18 @@
     box-shadow: var(--layered-shadow);
     padding: 1rem;
     margin-bottom: 5rem;
+    display: grid;
+    grid-row: span 5;
+    row-gap: 0;
+    grid-template-rows: subgrid;
 
     @media screen and (min-width: 992px) {
       margin-bottom: unset;
     }
 
+    h2,
     h3 {
-      margin-bottom: 1rem;
+      margin-bottom: 0;
       font-size: 2.2rem;
     }
   }
