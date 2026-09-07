@@ -165,4 +165,8 @@
       }
     }
   }
+
+  .router-link-exact-active {
+    font-weight: 700;
+  }
 </style>
