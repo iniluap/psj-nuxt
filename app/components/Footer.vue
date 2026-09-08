@@ -10,7 +10,8 @@
             rel="noreferrer">
             <Icon
               name="uil:linkedin"
-              title="LinkedIn accout of Paulina Sędłak-Jakubowska" />
+              title="LinkedIn accout of Paulina Sędłak-Jakubowska"
+              aria-hidden="true" />
           </a>
         </li>
         <li>
@@ -21,7 +22,16 @@
             rel="noreferrer">
             <Icon
               name="uil:github"
-              title="GitHub accout of Paulina Sędłak-Jakubowska" />
+              aria-hidden="true" />
+          </a>
+        </li>
+        <li>
+          <a
+            aria-label="Visit my Codepen profile"
+            href="https://codepen.io/iniluap/">
+            <Icon
+              name="fa7-brands:codepen"
+              aria-hidden="true" />
           </a>
         </li>
       </ul>
