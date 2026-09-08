@@ -1,30 +1,42 @@
 <template>
   <footer>
-    <ul class="ul-plain ul-links">
-      <li>
-        <a
-          aria-label="Visit my linkedIn profile"
-          href="https://www.linkedin.com/in/psjakubowska/"
-          target="_blank"
-          rel="noreferrer">
-          <Icon
-            name="uil:linkedin"
-            title="LinkedIn accout of Paulina Sędłak-Jakubowska" />
-        </a>
-      </li>
-      <li>
-        <a
-          aria-label="Visit my GitHub profile"
-          href="https://github.com/iniluap"
-          target="_blank"
-          rel="noreferrer">
-          <Icon
-            name="uil:github"
-            title="GitHub accout of Paulina Sędłak-Jakubowska" />
-        </a>
-      </li>
-    </ul>
-    <p>&copy; Paulina Sędłak-Jakubowska {{ date }}</p>
+    <div class="footer-container">
+      <ul class="ul-plain ul-links">
+        <li>
+          <a
+            aria-label="Visit my linkedIn profile"
+            href="https://www.linkedin.com/in/psjakubowska/"
+            target="_blank"
+            rel="noreferrer">
+            <Icon
+              name="uil:linkedin"
+              title="LinkedIn accout of Paulina Sędłak-Jakubowska"
+              aria-hidden="true" />
+          </a>
+        </li>
+        <li>
+          <a
+            aria-label="Visit my GitHub profile"
+            href="https://github.com/iniluap"
+            target="_blank"
+            rel="noreferrer">
+            <Icon
+              name="uil:github"
+              aria-hidden="true" />
+          </a>
+        </li>
+        <li>
+          <a
+            aria-label="Visit my Codepen profile"
+            href="https://codepen.io/iniluap/">
+            <Icon
+              name="fa7-brands:codepen"
+              aria-hidden="true" />
+          </a>
+        </li>
+      </ul>
+      <p>&copy; Paulina Sędłak-Jakubowska {{ date }}</p>
+    </div>
   </footer>
 </template>
 
@@ -37,13 +49,21 @@
     background-color: var(--secondary-rose);
     padding: 0 var(--whitespace-secondary);
     grid-area: footer;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: var(--whitespace-secondary);
     text-align: center;
     color: var(--white);
+  }
+
+  .footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 480px) {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: var(--whitespace-secondary);
+    }
   }
 
   ul {

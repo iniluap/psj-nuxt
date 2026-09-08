@@ -96,7 +96,7 @@
     width: 5rem;
     height: 5rem;
     position: fixed;
-    right: 0.5rem;
+    right: 1rem;
     top: 1rem;
     display: inline-flex;
     align-items: center;
@@ -164,5 +164,9 @@
         background-color: var(--white);
       }
     }
+  }
+
+  .router-link-exact-active {
+    font-weight: 700;
   }
 </style>

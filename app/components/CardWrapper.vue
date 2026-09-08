@@ -10,6 +10,7 @@
       display: grid;
       gap: 5rem;
       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      grid-template-rows: repeat(auto-fit);
     }
   }
 </style>

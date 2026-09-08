@@ -26,6 +26,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top -6rem left 6rem;
+    grid-area: header;
 
     @media screen and (min-width: 480px) {
       padding: 4rem var(--whitespace-secondary) var(--whitespace-primary);
