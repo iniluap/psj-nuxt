@@ -42,13 +42,9 @@ main {
 
 .content-container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 100ch;
   margin: 0 auto;
   padding: 0 var(--whitespace-secondary);
-}
-
-article {
-  grid-area: content;
 }
 
 hr {
