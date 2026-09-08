@@ -1,7 +1,11 @@
 <template>
   <header>
     <div class="header-container">
-      <span class="logo">Paulina Sędłak-Jakubowska</span>
+      <span
+        class="logo"
+        lang="pl"
+        >Paulina Sędłak-Jakubowska</span
+      >
       <Nav />
     </div>
   </header>
