@@ -59,9 +59,9 @@
     max-width: 1200px;
     margin: 0 auto;
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       display: flex;
-      align-items: baseline;
+      align-items: self-start;
       justify-content: space-between;
       gap: var(--whitespace-secondary);
     }

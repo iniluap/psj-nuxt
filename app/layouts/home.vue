@@ -6,6 +6,7 @@
 
 <style scoped>
   .home-layout {
+    padding: 10rem 0 0;
     /* Specify minimum height for rows to reduce CLS */
     grid-template-rows:
       [header-start] minmax(44rem, min-content)

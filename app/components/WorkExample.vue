@@ -22,6 +22,7 @@
 
     ul {
       margin-top: 3rem;
+      padding: 0;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
