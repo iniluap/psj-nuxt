@@ -63,10 +63,16 @@ hr {
 :focus.sr-only {
   width: auto;
   height: auto;
-  top: 1rem;
+  padding: 1rem var(--whitespace-secondary);
+  background-color: var(--secondary-rose);
+  top: 8rem;
   left: 2rem;
   overflow: auto;
   clip: auto;
+  z-index: 1000;
+  text-decoration: none;
+  text-align: center;
+  color: var(--white);
 }
 
 :focus-visible {
