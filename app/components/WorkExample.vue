@@ -41,15 +41,10 @@
       background-color: var(--secondary-blue);
       box-shadow: var(--layered-shadow);
       border-radius: 2rem;
-      color: var(--white);
+      color: var(--light-grey);
       display: flex;
       align-items: center;
       gap: 0.75rem;
-
-      svg {
-        margin-right: 1rem;
-        color: var(--light-grey);
-      }
     }
 
     p {

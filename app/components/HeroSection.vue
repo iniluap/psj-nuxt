@@ -3,9 +3,10 @@
     <figure>
       <NuxtImg
         src="/header-image.png"
+        :preload="{ fetchPriority: 'high' }"
         loading="eager"
         alt="The photo of Paulina Sedlak-Jakubowska. A caucasian woman in her 30's, with shoulder length brown hair and big glasses. Wearing a green longsleeve."
-        sizes="100vw md:350px" />
+        sizes="100vw md:290px" />
     </figure>
     <div class="header-text-container">
       <h1>
@@ -22,35 +23,38 @@
 
 <style scoped>
   section {
-    background-image: url('~/assets/images/blob.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top -6rem left 6rem;
-    grid-area: header;
+    background: url('~/assets/images/blob.svg') left 0rem top -1rem / 550px auto
+      no-repeat;
+    grid-row: header-start;
 
     @media screen and (min-width: 480px) {
-      padding: 4rem var(--whitespace-secondary) var(--whitespace-primary);
-      background-size: 550px auto;
+      background-size: contain;
       background-position: -6rem 0;
       display: flex;
+      gap: 4rem;
     }
 
     @media screen and (min-width: 768px) {
-      background-position: 12rem 1rem;
+      background-position: 0 0;
+      justify-content: center;
+      gap: 14rem;
+    }
+
+    @media screen and (min-width: 992px) {
+      background-position: 12rem 0;
     }
   }
 
   .header-text-container {
     padding: 1rem;
-    align-self: end;
 
     @media screen and (min-width: 480px) {
-      margin-left: 4rem;
       padding: 0;
+      align-self: end;
     }
 
     @media screen and (min-width: 768px) {
-      margin-left: 14rem;
+      width: 340px;
     }
   }
 
@@ -77,20 +81,11 @@
   }
 
   img {
-    width: 100%;
-    margin-left: -12rem;
-
-    @media screen and (min-width: 480px) {
-      margin-left: 0;
-      width: 250px;
-      height: 450px;
-      object-fit: cover;
-      object-position: right bottom;
-    }
-
-    @media screen and (min-width: 768px) {
-      width: 350px;
-      height: auto;
-    }
+    aspect-ratio: auto 290 / 516;
+    width: 250px;
+    object-fit: cover;
+    object-position: right bottom;
+    margin-left: 0;
+    margin-right: auto;
   }
 </style>

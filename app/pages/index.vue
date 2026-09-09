@@ -1,12 +1,10 @@
 <script setup lang="ts">
   definePageMeta({
-    layout: 'default'
+    layout: 'home'
   });
 
-  const route = useRoute();
-
-  const { data: page } = await useAsyncData('page-' + route.path, () => {
-    return queryCollection('content').path(route.path).first();
+  const { data: page } = await useAsyncData('page-index', () => {
+    return queryCollection('content').path('/').first();
   });
 
   if (!page.value) {
@@ -19,6 +17,7 @@
 </script>
 
 <template>
+  <HeroSection class="content-container" />
   <ContentRenderer
     v-if="page"
     :value="page"

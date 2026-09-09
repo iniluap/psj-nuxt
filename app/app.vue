@@ -5,14 +5,14 @@
 
 <template>
   <NuxtRouteAnnouncer />
-  <a
+  <NuxtLink
     href="#main-content"
     class="sr-only">
     Skip to content
-  </a>
-  <main>
+  </NuxtLink>
+  <NuxtLayout>
     <Header />
     <NuxtPage />
     <Footer />
-  </main>
+  </NuxtLayout>
 </template>

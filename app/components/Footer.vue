@@ -3,7 +3,7 @@
     <div class="footer-container">
       <ul class="ul-plain ul-links">
         <li>
-          <a
+          <NuxtLink
             aria-label="Visit my linkedIn profile"
             href="https://www.linkedin.com/in/psjakubowska/"
             target="_blank"
@@ -12,10 +12,10 @@
               name="uil:linkedin"
               title="LinkedIn accout of Paulina Sędłak-Jakubowska"
               aria-hidden="true" />
-          </a>
+          </NuxtLink>
         </li>
         <li>
-          <a
+          <NuxtLink
             aria-label="Visit my GitHub profile"
             href="https://github.com/iniluap"
             target="_blank"
@@ -23,16 +23,16 @@
             <Icon
               name="uil:github"
               aria-hidden="true" />
-          </a>
+          </NuxtLink>
         </li>
         <li>
-          <a
+          <NuxtLink
             aria-label="Visit my Codepen profile"
             href="https://codepen.io/iniluap/">
             <Icon
               name="fa7-brands:codepen"
               aria-hidden="true" />
-          </a>
+          </NuxtLink>
         </li>
       </ul>
       <p>&copy; Paulina Sędłak-Jakubowska {{ date }}</p>
@@ -48,7 +48,8 @@
   footer {
     background-color: var(--secondary-rose);
     padding: 0 var(--whitespace-secondary);
-    grid-area: footer;
+    grid-area: footer-start;
+    grid-column: span 3;
     text-align: center;
     color: var(--white);
   }

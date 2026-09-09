@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   },
   fonts: {
     defaults: {
-      weights: [400, 800],
+      weights: [400, 700, 800],
       styles: ['normal'],
       subsets: ['latin', 'latin-ext']
     },
@@ -66,6 +66,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/a11y'
   ],
-  devtools: { enabled: true },
+  devtools: { enabled: true, timeline: { enabled: true } },
   compatibilityDate: '2024-04-03'
 });
