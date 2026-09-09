@@ -27,10 +27,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top -6rem left 6rem;
-    grid-area: header;
+    grid-row: header-start;
 
     @media screen and (min-width: 480px) {
-      padding: 4rem var(--whitespace-secondary) var(--whitespace-primary);
       background-size: 550px auto;
       background-position: -6rem 0;
       display: flex;
@@ -38,6 +37,10 @@
 
     @media screen and (min-width: 768px) {
       background-position: 12rem 1rem;
+    }
+
+    @media screen and (min-width: 992px) {
+      padding: 4rem var(--whitespace-secondary) var(--whitespace-primary);
     }
   }
 

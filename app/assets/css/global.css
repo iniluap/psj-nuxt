@@ -32,19 +32,17 @@ main {
   min-height: 100vh;
   padding: 12rem 0 0;
   display: grid;
-  grid-template:
-    'header' min-content
-    'content' min-content
-    'footer' min-content;
-  gap: var(--whitespace-secondary);
+  /* Use empty grid columns instead of specifying padding on content elements */
+  grid-template-columns:
+    minmax(var(--whitespace-secondary), 1fr) minmax(auto, 100ch)
+    minmax(var(--whitespace-secondary), 1fr);
+  row-gap: var(--whitespace-secondary);
   align-items: start;
 }
 
 .content-container {
-  width: 100%;
-  max-width: 100ch;
-  margin: 0 auto;
-  padding: 0 var(--whitespace-secondary);
+  grid-row: content-start;
+  grid-column: 2 / 3;
 }
 
 hr {
