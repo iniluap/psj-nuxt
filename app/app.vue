@@ -10,9 +10,9 @@
     class="sr-only">
     Skip to content
   </NuxtLink>
-  <main>
+  <NuxtLayout>
     <Header />
     <NuxtPage />
     <Footer />
-  </main>
+  </NuxtLayout>
 </template>
