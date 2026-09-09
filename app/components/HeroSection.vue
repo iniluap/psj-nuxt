@@ -52,6 +52,10 @@
       padding: 0;
       align-self: end;
     }
+
+    @media screen and (min-width: 768px) {
+      width: 340px;
+    }
   }
 
   h1 {

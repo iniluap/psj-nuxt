@@ -34,7 +34,7 @@ main {
   display: grid;
   /* Use empty grid columns instead of specifying padding on content elements */
   grid-template-columns:
-    minmax(var(--whitespace-secondary), 1fr) minmax(auto, 100ch)
+    minmax(var(--whitespace-secondary), 1fr) minmax(auto, 98rem)
     minmax(var(--whitespace-secondary), 1fr);
   row-gap: var(--whitespace-secondary);
   align-items: start;

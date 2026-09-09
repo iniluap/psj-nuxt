@@ -5,6 +5,9 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   letter-spacing: 0.1rem;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
