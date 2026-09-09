@@ -30,7 +30,7 @@ body {
 
 main {
   min-height: 100vh;
-  padding: 12rem 0 0;
+  padding: 8rem 0 0;
   display: grid;
   /* Use empty grid columns instead of specifying padding on content elements */
   grid-template-columns:

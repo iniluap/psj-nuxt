@@ -6,7 +6,7 @@
         :preload="{ fetchPriority: 'high' }"
         loading="eager"
         alt="The photo of Paulina Sedlak-Jakubowska. A caucasian woman in her 30's, with shoulder length brown hair and big glasses. Wearing a green longsleeve."
-        sizes="100vw md:350px" />
+        sizes="100vw md:290px" />
     </figure>
     <div class="header-text-container">
       <h1>
@@ -23,7 +23,7 @@
 
 <style scoped>
   section {
-    background: url('~/assets/images/blob.svg') top -6rem left 6rem / contain
+    background: url('~/assets/images/blob.svg') top 0 left 6rem / contain
       no-repeat;
     grid-row: header-start;
 
@@ -38,10 +38,6 @@
       background-position: 12rem 1rem;
       justify-content: center;
       gap: 14rem;
-    }
-
-    @media screen and (min-width: 992px) {
-      padding: 4rem var(--whitespace-secondary) var(--whitespace-primary);
     }
   }
 
@@ -77,20 +73,16 @@
   }
 
   img {
+    aspect-ratio: auto 290 / 516;
     width: 100%;
+    max-width: 290px;
     margin-left: -12rem;
 
     @media screen and (min-width: 480px) {
       margin-left: 0;
       width: 250px;
-      height: 450px;
       object-fit: cover;
       object-position: right bottom;
-    }
-
-    @media screen and (min-width: 768px) {
-      width: 350px;
-      height: auto;
     }
   }
 </style>
