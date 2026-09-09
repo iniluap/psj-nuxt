@@ -23,21 +23,25 @@
 
 <style scoped>
   section {
-    background: url('~/assets/images/blob.svg') top 0 left 6rem / contain
+    background: url('~/assets/images/blob.svg') left 0rem top -1rem / 550px auto
       no-repeat;
     grid-row: header-start;
 
     @media screen and (min-width: 480px) {
-      background-size: 550px auto;
+      background-size: contain;
       background-position: -6rem 0;
       display: flex;
       gap: 4rem;
     }
 
     @media screen and (min-width: 768px) {
-      background-position: 12rem 1rem;
+      background-position: 0 0;
       justify-content: center;
       gap: 14rem;
+    }
+
+    @media screen and (min-width: 992px) {
+      background-position: 12rem 0;
     }
   }
 
@@ -74,15 +78,10 @@
 
   img {
     aspect-ratio: auto 290 / 516;
-    width: 100%;
-    max-width: 290px;
-    margin-left: -12rem;
-
-    @media screen and (min-width: 480px) {
-      margin-left: 0;
-      width: 250px;
-      object-fit: cover;
-      object-position: right bottom;
-    }
+    width: 250px;
+    object-fit: cover;
+    object-position: right bottom;
+    margin-left: 0;
+    margin-right: auto;
   }
 </style>
