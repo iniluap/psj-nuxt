@@ -23,20 +23,21 @@
 
 <style scoped>
   section {
-    background-image: url('~/assets/images/blob.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top -6rem left 6rem;
+    background: url('~/assets/images/blob.svg') top -6rem left 6rem / contain
+      no-repeat;
     grid-row: header-start;
 
     @media screen and (min-width: 480px) {
       background-size: 550px auto;
       background-position: -6rem 0;
       display: flex;
+      gap: 4rem;
     }
 
     @media screen and (min-width: 768px) {
       background-position: 12rem 1rem;
+      justify-content: center;
+      gap: 14rem;
     }
 
     @media screen and (min-width: 992px) {
@@ -46,15 +47,10 @@
 
   .header-text-container {
     padding: 1rem;
-    align-self: end;
 
     @media screen and (min-width: 480px) {
-      margin-left: 4rem;
       padding: 0;
-    }
-
-    @media screen and (min-width: 768px) {
-      margin-left: 14rem;
+      align-self: end;
     }
   }
 
