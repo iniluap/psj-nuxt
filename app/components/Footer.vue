@@ -35,14 +35,15 @@
           </NuxtLink>
         </li>
       </ul>
-      <p>&copy; Paulina Sędłak-Jakubowska {{ date }}</p>
+      <p>
+        &copy; Paulina Sędłak-Jakubowska
+        <NuxtTime
+          :datetime="new Date()"
+          year="numeric" />
+      </p>
     </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-  const date: number = new Date().getFullYear();
-</script>
 
 <style scoped>
   footer {
