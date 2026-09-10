@@ -6,7 +6,8 @@
         :preload="{ fetchPriority: 'high' }"
         loading="eager"
         alt="The photo of Paulina Sedlak-Jakubowska. A caucasian woman in her 30's, with shoulder length brown hair and big glasses. Wearing a green longsleeve."
-        sizes="100vw md:290px" />
+        sizes="100vw md:290px"
+        width="290" />
     </figure>
     <div class="header-text-container">
       <h1>
