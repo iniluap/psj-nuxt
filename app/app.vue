@@ -12,7 +12,7 @@
   </NuxtLink>
   <NuxtLayout>
     <Header />
-    <NuxtPage />
+    <NuxtPage :page-key="(route) => route.fullPath" />
     <Footer />
   </NuxtLayout>
 </template>
