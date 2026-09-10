@@ -1,5 +1,6 @@
 <template>
   <section>
+    <HeroBackground />
     <figure>
       <NuxtImg
         src="/header-image.png"
@@ -9,7 +10,7 @@
         sizes="100vw md:290px"
         width="290" />
     </figure>
-    <div class="header-text-container">
+    <div class="hero-text-container">
       <h1>
         Hi, I'm Paulina
         <br />
@@ -24,29 +25,22 @@
 
 <style scoped>
   section {
-    background: url('~/assets/images/blob.svg') left 0rem top -1rem / 550px auto
-      no-repeat;
+    position: relative;
+    overflow-x: clip;
     grid-row: header-start;
 
     @media screen and (min-width: 480px) {
-      background-size: contain;
-      background-position: -6rem 0;
       display: flex;
       gap: 4rem;
     }
 
     @media screen and (min-width: 768px) {
-      background-position: 0 0;
       justify-content: center;
       gap: 14rem;
     }
-
-    @media screen and (min-width: 992px) {
-      background-position: 12rem 0;
-    }
   }
 
-  .header-text-container {
+  .hero-text-container {
     padding: 1rem;
 
     @media screen and (min-width: 480px) {
