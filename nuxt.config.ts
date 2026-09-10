@@ -33,6 +33,11 @@ export default defineNuxtConfig({
       anchorLinks: false
     }
   },
+  icon: {
+    serverBundle: {
+      collections: ['mdi', 'fa7-solid', 'fa7-brands']
+    }
+  },
   image: {
     dir: 'assets/images',
     screens: {
