@@ -10,6 +10,7 @@
     class="sr-only">
     Skip to content
   </NuxtLink>
+  <NuxtLoadingIndicator color="#b38a00" />
   <NuxtLayout>
     <Header />
     <NuxtPage :page-key="(route) => route.fullPath" />
