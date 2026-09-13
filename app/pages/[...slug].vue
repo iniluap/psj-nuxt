@@ -6,10 +6,9 @@
   });
 
   const route = useRoute();
+  const cleanPath = withoutTrailingSlash(route.path);
 
-  const { data: page } = await useAsyncData('page-' + route.path, () => {
-    const cleanPath = withoutTrailingSlash(route.path);
-
+  const { data: page } = await useAsyncData('page-' + cleanPath, () => {
     return queryCollection('content').path(cleanPath).first();
   });
 
