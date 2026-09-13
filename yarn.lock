@@ -797,6 +797,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/uil@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@iconify-json/uil/-/uil-1.2.3.tgz#d455746fe32491fa46a884b6d47e4b7a3cc9c76f"
+  integrity sha512-if91+UBhDQc6glPsIaXecGIcXnbQZfEO4Gdv89TV2xQ+V5e9GWbY5rNl2fsKZd8COsRQ5lRQAKimVQVL0CZZVg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify/collections@^1.0.641":
   version "1.0.662"
   resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.662.tgz#09653b150d5e3ecbd24538bc7c7678309ae8f242"
