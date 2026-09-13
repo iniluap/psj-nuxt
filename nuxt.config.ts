@@ -34,8 +34,17 @@ export default defineNuxtConfig({
     }
   },
   icon: {
-    serverBundle: {
-      collections: ['mdi', 'fa7-solid', 'fa7-brands']
+    clientBundle: {
+      icons: [
+        'mdi:close',
+        'mdi:menu',
+        'uil:linkedin',
+        'uil:github',
+        'fa7-brands:codepen'
+      ],
+      scan: {
+        globExclude: ['content/*.md', 'components/*.vue']
+      }
     }
   },
   image: {
