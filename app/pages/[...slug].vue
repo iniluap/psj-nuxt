@@ -12,11 +12,6 @@
     return queryCollection('content').path(cleanPath).first();
   });
 
-  if (import.meta.client) {
-    console.log('Current route.path:', route.path);
-    console.log('Query result:', page.value);
-  }
-
   if (!page.value) {
     throw createError({
       statusCode: 404,
