@@ -2,6 +2,9 @@
   definePageMeta({
     layout: 'home'
   });
+  useHead({
+    title: 'Home page'
+  });
 
   const { data: page } = await useAsyncData('page-index', () => {
     return queryCollection('content').path('/').first();

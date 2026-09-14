@@ -1,10 +1,6 @@
 <script setup lang="ts">
   import { withoutTrailingSlash } from 'ufo';
 
-  definePageMeta({
-    layout: 'default'
-  });
-
   const route = useRoute();
   const cleanPath = withoutTrailingSlash(route.path);
 
@@ -19,6 +15,13 @@
       fatal: true
     });
   }
+
+  definePageMeta({
+    layout: 'default'
+  });
+  useHead({
+    title: `${page.value.title} page`
+  });
 </script>
 
 <template>
