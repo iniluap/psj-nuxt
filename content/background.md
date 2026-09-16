@@ -107,8 +107,8 @@ the people who updated and tweaked the website, ran social media
 accounts, and managed events on-site.
 
 #resources
-[Website](http://www.pylight.org/){.block-link}&nbsp;
-[Facebook](https://www.facebook.com/pylightmeetup){.block-link}
+[Website](http://www.pylight.org/){.block-link aria-describedby="pylight-waw"}&nbsp;
+[Facebook](https://www.facebook.com/pylightmeetup){.block-link aria-describedby="pylight-waw"}
 ::
 
 ::card
@@ -125,8 +125,8 @@ accounts, and managed events on-site.
 I&nbsp;delivered a&nbsp;presentation on the basic concepts of Scrum.
 
 #resources
-[YouTube](https://www.youtube.com/watch?v=N34jrb-IL2E){.block-link}&nbsp;
-[Slides](https://slides.com/iniluap/scrum){.block-link}
+[YouTube](https://www.youtube.com/watch?v=N34jrb-IL2E){.block-link aria-describedby="pylight-waw-8"}&nbsp;
+[Slides](https://slides.com/iniluap/scrum){.block-link aria-describedby="pylight-waw-8"}
 ::
 
 ::card
@@ -144,8 +144,8 @@ I&nbsp;co-organised two editions of a&nbsp;programming workshop for a&nbsp;group
 I&nbsp;managed the event website, trained mentors, and designed printed and online graphic materials.
 
 #resources
-[Website](https://djangogirls.org/en/warszawa/){.block-link}&nbsp;
-[Facebook](https://www.facebook.com/DjangoGirlsWarsaw){.block-link}
+[Website](https://djangogirls.org/en/warszawa/){.block-link aria-describedby="djangogirls-warsaw"}&nbsp;
+[Facebook](https://www.facebook.com/DjangoGirlsWarsaw){.block-link aria-describedby="djangogirls-warsaw"}
 ::
 
 ::card

@@ -73,6 +73,8 @@ hr {
   color: var(--white);
 }
 
-:focus-visible {
-  outline-color: var(--secondary-blue);
+:focus-visible,
+:focus {
+  outline: var(--secondary-blue) solid 2px;
+  outline-offset: 2px;
 }

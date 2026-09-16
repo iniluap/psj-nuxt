@@ -1,24 +1,3 @@
-<script lang="ts">
-  const manuItems = [
-    {
-      to: '/',
-      name: 'Home'
-    },
-    {
-      to: '/work',
-      name: 'How I work'
-    },
-    {
-      to: '/projects',
-      name: 'Projects'
-    },
-    {
-      to: '/background',
-      name: 'My Background'
-    }
-  ];
-</script>
-
 <template>
   <nav
     aria-label="Main navigation"
@@ -56,6 +35,25 @@
 </template>
 
 <script setup lang="ts">
+  const manuItems = [
+    {
+      to: '/',
+      name: 'Home'
+    },
+    {
+      to: '/work',
+      name: 'How I work'
+    },
+    {
+      to: '/projects',
+      name: 'Projects'
+    },
+    {
+      to: '/background',
+      name: 'My Background'
+    }
+  ];
+
   const isOpen = useState('isOpen', () => false);
 
   const setVisibility = (value: boolean) => {
@@ -109,11 +107,10 @@
     cursor: pointer;
     transition: var(--transition);
 
-    &:hover,
-    &:focus {
+    &:hover {
       background-color: var(--secondary-blue);
       color: white;
-      outline: var(--tertiary-yellow) auto 2px;
+      outline: var(--tertiary-yellow) solid 0.25rem;
     }
 
     &.close-trigger {
@@ -122,6 +119,12 @@
 
     &.open-trigger {
       z-index: 100;
+
+      &:hover,
+      &:focus,
+      &:focus-visible {
+        outline: var(--white) solid 0.25rem;
+      }
     }
 
     @media screen and (min-width: 992px) {
@@ -148,16 +151,26 @@
   }
 
   .nav-link {
-    display: inline-block;
+    display: none;
     font-size: 1.5rem;
     text-transform: uppercase;
     transition: var(--transition);
 
+    .is-open-nav & {
+      display: inline-block;
+    }
+
     @media screen and (min-width: 992px) {
+      display: inline-block;
       color: var(--white);
 
       &:hover {
         color: var(--primary-green);
+      }
+
+      &:focus,
+      &:focus-visible {
+        outline-color: var(--white);
       }
 
       &::before {
