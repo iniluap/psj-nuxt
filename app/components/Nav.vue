@@ -153,12 +153,17 @@
   }
 
   .nav-link {
-    display: inline-block;
+    display: none;
     font-size: 1.5rem;
     text-transform: uppercase;
     transition: var(--transition);
 
+    .is-open-nav & {
+      display: inline-block;
+    }
+
     @media screen and (min-width: 992px) {
+      display: inline-block;
       color: var(--white);
 
       &:hover {
