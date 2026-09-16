@@ -1,24 +1,3 @@
-<script lang="ts">
-  const manuItems = [
-    {
-      to: '/',
-      name: 'Home'
-    },
-    {
-      to: '/work',
-      name: 'How I work'
-    },
-    {
-      to: '/projects',
-      name: 'Projects'
-    },
-    {
-      to: '/background',
-      name: 'My Background'
-    }
-  ];
-</script>
-
 <template>
   <nav
     aria-label="Main navigation"
@@ -56,6 +35,25 @@
 </template>
 
 <script setup lang="ts">
+  const manuItems = [
+    {
+      to: '/',
+      name: 'Home'
+    },
+    {
+      to: '/work',
+      name: 'How I work'
+    },
+    {
+      to: '/projects',
+      name: 'Projects'
+    },
+    {
+      to: '/background',
+      name: 'My Background'
+    }
+  ];
+
   const isOpen = useState('isOpen', () => false);
 
   const setVisibility = (value: boolean) => {
