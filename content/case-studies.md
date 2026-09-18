@@ -1,4 +1,4 @@
-# Projects
+# Case studies
 
 ::cardWrapper
 
