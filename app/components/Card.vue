@@ -1,5 +1,7 @@
 <template>
-  <div class="card">
+  <div
+    class="card"
+    :class="{ 'card-extended': $slots.resources }">
     <slot />
     <div>
       <slot
@@ -25,7 +27,7 @@
     padding: 2rem;
     margin-bottom: 5rem;
     display: grid;
-    grid-row: span 4;
+    grid-row: span 3;
     gap: 0;
     grid-template-rows: subgrid;
 
@@ -38,6 +40,10 @@
       margin-bottom: 0;
       font-size: 2.2rem;
     }
+  }
+
+  .card-extended {
+    grid-row: span 4;
   }
 
   .card-wide {

@@ -45,8 +45,8 @@
       name: 'How I work'
     },
     {
-      to: '/projects',
-      name: 'Projects'
+      to: '/case-studies',
+      name: 'Case studies'
     },
     {
       to: '/background',

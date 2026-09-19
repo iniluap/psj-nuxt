@@ -1,4 +1,4 @@
-<script>
+<script setup lang="ts">
   import '~/assets/css/global.css';
   import '~/assets/css/typography.css';
 
@@ -18,8 +18,8 @@
     link: [
       {
         rel: 'icon',
-        type: 'image/png',
-        href: '/favicon.png'
+        type: 'image/svg+xml',
+        href: '/icon.svg'
       }
     ]
   });
