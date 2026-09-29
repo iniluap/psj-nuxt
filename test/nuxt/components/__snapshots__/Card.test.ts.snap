@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card component > does not add 'card-extended', when resources slot is empty 1`] = `
+"<div class="card">My title<div>Company XYZ10-12-2026</div>
+  <div>That was a super project</div>
+</div>"
+`;
+
+exports[`Card component > renders all slots 1`] = `
+"<div class="card card-extended">My title<div>Company XYZ10-12-2026</div>
+  <div>That was a super project</div>Linkedin
+</div>"
+`;

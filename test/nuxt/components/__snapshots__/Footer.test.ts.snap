@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer component > mounts correctly 1`] = `
+"<footer data-v-d7b4fff6="">
+  <div data-v-d7b4fff6="" class="footer-container">
+    <ul data-v-d7b4fff6="" class="ul-plain ul-links">
+      <li data-v-d7b4fff6=""><a data-v-d7b4fff6="" href="https://www.linkedin.com/in/psjakubowska/" rel="noreferrer" target="_blank" aria-label="Visit my linkedIn profile"><span data-v-d7b4fff6="" class="iconify i-uil:linkedin" aria-hidden="true" title="LinkedIn accout of Paulina Sędłak-Jakubowska"></span></a></li>
+      <li data-v-d7b4fff6=""><a data-v-d7b4fff6="" href="https://github.com/iniluap" rel="noreferrer" target="_blank" aria-label="Visit my GitHub profile"><span data-v-d7b4fff6="" class="iconify i-uil:github" aria-hidden="true"></span></a></li>
+      <li data-v-d7b4fff6=""><a data-v-d7b4fff6="" href="https://codepen.io/iniluap/" rel="noopener noreferrer" aria-label="Visit my Codepen profile"><span data-v-d7b4fff6="" class="iconify i-fa7-brands:codepen" aria-hidden="true"></span></a></li>
+    </ul>
+    <p data-v-d7b4fff6=""> © Paulina Sędłak-Jakubowska <time data-v-d7b4fff6="" datetime="2026-01-15T00:00:00.000Z">2026</time></p>
+  </div>
+</footer>"
+`;
