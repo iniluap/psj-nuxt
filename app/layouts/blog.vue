@@ -33,11 +33,6 @@
     padding: var(--whitespace-secondary) 0;
     border-top: 1px solid var(--dark-grey);
     border-bottom: 1px solid var(--dark-grey);
-
-    h1 {
-      font-variant: all-petite-caps;
-      font-weight: 800;
-    }
   }
 
   .blog-content {
