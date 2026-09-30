@@ -8,9 +8,9 @@
   .blog-layout {
     padding: 14rem 0 0;
     grid-template-columns:
-      minmax(var(--whitespace-secondary), 1fr) minmax(auto, 45rem) minmax(
-        auto,
-        45rem
+      minmax(var(--whitespace-secondary), 1fr) minmax(9rem, 48rem) minmax(
+        9rem,
+        48rem
       )
       minmax(var(--whitespace-secondary), 1fr);
     row-gap: var(--whitespace-secondary);
