@@ -50,7 +50,7 @@
     background-color: var(--secondary-rose);
     padding: 0 var(--whitespace-secondary);
     grid-area: footer-start;
-    grid-column: span 3;
+    grid-column: 1 / -1;
     text-align: center;
     color: var(--white);
   }

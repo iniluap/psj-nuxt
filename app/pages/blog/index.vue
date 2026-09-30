@@ -1,6 +1,6 @@
 <script setup lang="ts">
   definePageMeta({
-    layout: 'default'
+    layout: 'blog'
   });
 
   const { data: articles } = await useAsyncData('article-', () => {
@@ -17,8 +17,8 @@
 </script>
 
 <template>
-  <h1>Blog</h1>
-  <section>
+  <h1 class="all-columns blog-hero">Blog</h1>
+  <section class="all-columns blog-content">
     <div
       v-for="(article, index) in articles"
       :key="index">
