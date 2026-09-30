@@ -30,11 +30,14 @@
       :key="index"
       :class="{ 'blog-hero-article': index === 0 }"
       class="blog-article">
-      <h2>{{ article.title }}</h2>
-      <p>{{ article.description }}</p>
-      <div class="blog-article-footer">
-        <span>{{ article.date }}</span
-        ><span>Reading time: {{ article.minRead }} min</span>
+      <div class="blog-article-illustration"></div>
+      <div>
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.description }}</p>
+        <div class="blog-article-footer">
+          <span>{{ article.date }}</span
+          ><span>Reading time: {{ article.minRead }} min</span>
+        </div>
       </div>
     </div>
   </section>

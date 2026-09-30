@@ -51,6 +51,8 @@
   }
 
   .blog-hero-article {
+    display: grid;
+    grid-template-columns: subgrid;
     grid-column: 1 / 3;
     border-bottom: 1px solid var(--dark-grey);
   }
@@ -62,7 +64,7 @@
     &:nth-child(even)::before {
       content: '';
       position: absolute;
-      height: 100%;
+      height: calc(100% - 2rem);
       right: -1.5rem;
       border-right: 1px solid var(--dark-grey);
     }
@@ -73,5 +75,28 @@
     gap: var(--whitespace-secondary);
     justify-content: space-between;
     font-size: 1.4rem;
+  }
+
+  .blog-article-illustration {
+    width: 100%;
+    height: 18rem;
+    margin-bottom: var(--whitespace-secondary);
+    opacity: 0.8;
+    background:
+      repeating-linear-gradient(
+        -45deg,
+        var(--light-grey) 0px,
+        var(--light-grey) 5px,
+        transparent 5px,
+        transparent 8px
+      ),
+      repeating-linear-gradient(
+        45deg,
+        var(--light-grey) 0px,
+        var(--light-grey) 5px,
+        transparent 5px,
+        transparent 8px
+      ),
+      linear-gradient(var(--secondary-blue), var(--secondary-blue));
   }
 </style>
