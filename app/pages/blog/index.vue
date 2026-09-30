@@ -21,7 +21,8 @@
   <section class="all-columns blog-content">
     <div
       v-for="(article, index) in articles"
-      :key="index">
+      :key="index"
+      :class="{ 'blog-hero-article': index === 0 }">
       <h2>{{ article.title }}</h2>
       <p>{{ article.description }}</p>
       <p>{{ article.date }}</p>

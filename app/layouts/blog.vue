@@ -36,5 +36,12 @@
 
   .blog-content {
     grid-row: content-start;
+    display: grid;
+    grid-template-columns: subgrid;
+    row-gap: var(--whitespace-secondary);
+  }
+
+  .blog-hero-article {
+    grid-column: 1 / 3;
   }
 </style>
