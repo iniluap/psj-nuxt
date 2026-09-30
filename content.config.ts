@@ -1,4 +1,5 @@
-import { defineContentConfig, defineCollection, z } from '@nuxt/content';
+import { defineContentConfig, defineCollection } from '@nuxt/content';
+import { z } from 'zod';
 
 export default defineContentConfig({
   collections: {
@@ -10,6 +11,8 @@ export default defineContentConfig({
       type: 'page',
       source: 'blog/*.md',
       schema: z.object({
+        title: z.string(),
+        description: z.string().optional(),
         minRead: z.number(),
         date: z.date()
       })
