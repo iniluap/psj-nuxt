@@ -1,4 +1,8 @@
 <script setup lang="ts">
+  definePageMeta({
+    layout: 'default'
+  });
+
   const { data: articles } = await useAsyncData('article-', () => {
     return queryCollection('blog').order('date', 'DESC').all();
   });
