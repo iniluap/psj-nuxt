@@ -22,11 +22,8 @@
     }
   }
 
-  .all-columns {
-    grid-column: 2 / 4;
-  }
-
   .blog-hero {
+    grid-column: 2 / 4;
     grid-row: hero-start;
     padding: var(--whitespace-secondary) 0;
     border-top: 1px solid var(--dark-grey);
@@ -34,6 +31,7 @@
   }
 
   .blog-content {
+    grid-column: 2 / 4;
     grid-row: content-start;
     display: grid;
     grid-template-columns: subgrid;

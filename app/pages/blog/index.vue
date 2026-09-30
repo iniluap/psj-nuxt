@@ -17,14 +17,14 @@
 </script>
 
 <template>
-  <div class="all-columns blog-hero">
+  <div class="blog-hero">
     <h1>Frontend journal</h1>
     <p>
       Follow along to learn more about my experience and recent programming
       adventures.
     </p>
   </div>
-  <section class="all-columns blog-content">
+  <section class="blog-content">
     <div
       v-for="(article, index) in articles"
       :key="index"
