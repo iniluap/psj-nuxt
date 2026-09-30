@@ -1,6 +1,6 @@
 body {
   color: var(--black);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Ysabeau', sans-serif;
   font-optical-sizing: auto;
   font-size: 1.6rem;
   line-height: 1.7;
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Gilda Display', serif;
+  font-family: 'Ysabeau SC', serif;
   font-weight: normal;
   margin: 0;
   line-height: 1.5;

@@ -58,7 +58,7 @@
 
   .card-label {
     color: var(--secondary-rose);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
     font-size: 1.4rem;
   }
 

@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Gilda+Display&family=Raleway:wght@400..800&display=swap'
+          href: 'https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap'
         }
       ]
     }
@@ -62,8 +62,8 @@ export default defineNuxtConfig({
       subsets: ['latin', 'latin-ext']
     },
     families: [
-      { name: 'Raleway', provider: 'google' },
-      { name: 'Gilda Display', provider: 'google' }
+      { name: 'Ysabeau SC', provider: 'google' },
+      { name: 'Ysabeau', provider: 'google' }
     ]
   },
   sourcemap: {
