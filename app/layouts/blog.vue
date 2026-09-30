@@ -36,6 +36,11 @@
     padding: var(--whitespace-secondary) 0;
     border-top: 1px solid var(--dark-grey);
     border-bottom: 1px solid var(--dark-grey);
+
+    h1 {
+      font-variant: all-petite-caps;
+      font-weight: 800;
+    }
   }
 
   .blog-content {
@@ -51,6 +56,7 @@
   }
 
   .blog-article {
+    padding: var(--whitespace-secondary);
     position: relative;
 
     &:nth-child(even)::before {
@@ -60,5 +66,12 @@
       right: -1.5rem;
       border-right: 1px solid var(--dark-grey);
     }
+  }
+
+  .blog-article-footer {
+    display: flex;
+    gap: var(--whitespace-secondary);
+    justify-content: space-between;
+    font-size: 1.4rem;
   }
 </style>

@@ -32,8 +32,10 @@
       class="blog-article">
       <h2>{{ article.title }}</h2>
       <p>{{ article.description }}</p>
-      <p>{{ article.date }}</p>
-      <p>Reading time: {{ article.minRead }} min</p>
+      <div class="blog-article-footer">
+        <span>{{ article.date }}</span
+        ><span>Reading time: {{ article.minRead }} min</span>
+      </div>
     </div>
   </section>
 </template>
