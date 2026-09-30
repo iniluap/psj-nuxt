@@ -32,16 +32,33 @@
 
   .blog-hero {
     grid-row: hero-start;
+    margin-bottom: var(--whitespace-primary);
+    padding: var(--whitespace-secondary) 0;
+    border-top: 1px solid var(--dark-grey);
+    border-bottom: 1px solid var(--dark-grey);
   }
 
   .blog-content {
     grid-row: content-start;
     display: grid;
     grid-template-columns: subgrid;
-    row-gap: var(--whitespace-secondary);
+    gap: var(--whitespace-primary);
   }
 
   .blog-hero-article {
     grid-column: 1 / 3;
+    border-bottom: 1px solid var(--dark-grey);
+  }
+
+  .blog-article {
+    position: relative;
+
+    &:nth-child(even)::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      right: -1.5rem;
+      border-right: 1px solid var(--dark-grey);
+    }
   }
 </style>
