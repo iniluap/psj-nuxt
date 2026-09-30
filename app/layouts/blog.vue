@@ -19,7 +19,8 @@
       [hero-start] min-content
       [content-start] auto
       [footer-start] minmax(6rem, min-content) [page-end];
-    gap: var(--whitespace-secondary);
+    column-gap: var(--whitespace-secondary);
+    row-gap: var(--whitespace-primary);
 
     @media screen and (min-width: 480px) {
       padding: 10rem 0 0;
@@ -32,7 +33,6 @@
 
   .blog-hero {
     grid-row: hero-start;
-    margin-bottom: var(--whitespace-primary);
     padding: var(--whitespace-secondary) 0;
     border-top: 1px solid var(--dark-grey);
     border-bottom: 1px solid var(--dark-grey);
@@ -70,13 +70,6 @@
     }
   }
 
-  .blog-article-footer {
-    display: flex;
-    gap: var(--whitespace-secondary);
-    justify-content: space-between;
-    font-size: 1.4rem;
-  }
-
   .blog-article-illustration {
     width: 100%;
     height: 18rem;
@@ -98,5 +91,30 @@
         transparent 8px
       ),
       linear-gradient(var(--secondary-blue), var(--secondary-blue));
+
+    .blog-hero-article & {
+      margin-bottom: 0;
+    }
+  }
+
+  .blog-article-data {
+    display: flex;
+    flex-direction: column;
+    gap: var(--whitespace-secondary);
+
+    * {
+      margin: 0;
+    }
+  }
+
+  .blog-article-description {
+    flex-grow: 1;
+  }
+
+  .blog-article-footer {
+    display: flex;
+    gap: var(--whitespace-secondary);
+    justify-content: space-between;
+    font-size: 1.4rem;
   }
 </style>
