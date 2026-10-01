@@ -1,6 +1,8 @@
 <template>
   <div class="blog-article-data">
-    <h2>{{ article.title }}</h2>
+    <h2>
+      <NuxtLink :to="article.path">{{ article.title }}</NuxtLink>
+    </h2>
     <p class="blog-article-description">{{ article.description }}</p>
     <div class="blog-article-footer">
       <span>{{ article.date }}</span>
@@ -18,6 +20,17 @@
 </script>
 
 <style lang="css" scoped>
+  h2 a {
+    color: var(--primary-green);
+    transition: var(--transition);
+
+    &:hover {
+      color: var(--secondary-rose);
+      font-weight: 700;
+      letter-spacing: 0.23rem;
+    }
+  }
+
   .blog-article-data {
     display: flex;
     flex-direction: column;
