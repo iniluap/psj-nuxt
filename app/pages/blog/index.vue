@@ -29,7 +29,7 @@
       v-for="(article, index) in articles"
       :key="index"
       :class="[index === 0 ? 'blog-hero-article' : 'blog-article']">
-      <BlogArticleIllustration />
+      <BlogArticleIllustration :index="index" />
       <div class="blog-article-data">
         <h2>{{ article.title }}</h2>
         <p class="blog-article-description">{{ article.description }}</p>
