@@ -179,7 +179,7 @@
     }
   }
 
-  .router-link-exact-active {
+  [aria-current='page'] {
     font-weight: 700;
   }
 </style>
