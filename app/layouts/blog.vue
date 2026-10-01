@@ -38,15 +38,17 @@
     gap: var(--whitespace-primary);
   }
 
-  .blog-hero-article,
-  .blog-article {
-    @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
+    .blog-hero-article,
+    .blog-article {
       padding: var(--whitespace-secondary);
     }
   }
 
   .blog-hero-article {
     grid-column: 1 / 3;
+    /* making up for gap and padding on two column layout below */
+    column-gap: calc(var(--whitespace-primary) * 2);
 
     @media screen and (min-width: 768px) {
       display: grid;
