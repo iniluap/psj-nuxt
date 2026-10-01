@@ -30,14 +30,7 @@
       :key="index"
       :class="[index === 0 ? 'blog-hero-article' : 'blog-article']">
       <BlogArticleIllustration :index="index" />
-      <div class="blog-article-data">
-        <h2>{{ article.title }}</h2>
-        <p class="blog-article-description">{{ article.description }}</p>
-        <div class="blog-article-footer">
-          <span>{{ article.date }}</span>
-          <span>Reading time: {{ article.minRead }} min</span>
-        </div>
-      </div>
+      <BlogCardContent :article="article" />
     </div>
   </section>
 </template>

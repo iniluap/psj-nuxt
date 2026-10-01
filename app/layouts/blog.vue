@@ -79,30 +79,4 @@
       }
     }
   }
-
-  .blog-article-data {
-    display: flex;
-    flex-direction: column;
-    gap: var(--whitespace-secondary);
-
-    * {
-      margin: 0;
-    }
-  }
-
-  .blog-article-description {
-    flex-grow: 1;
-  }
-
-  .blog-article-footer {
-    font-size: 1.4rem;
-    display: flex;
-    flex-direction: column;
-
-    @media screen and (min-width: 480px) {
-      flex-direction: row;
-      justify-content: space-between;
-      gap: var(--whitespace-secondary);
-    }
-  }
 </style>
