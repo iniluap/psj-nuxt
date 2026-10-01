@@ -1,7 +1,14 @@
 <template>
   <div class="blog-article-data">
     <h2>
-      <NuxtLink :to="article.path">{{ article.title }}</NuxtLink>
+      <NuxtLink
+        :to="article.path"
+        @focusin="$emit('article-focused')"
+        @mouseenter="$emit('article-focused')"
+        @focusout="$emit('article-unfocused')"
+        @mouseleave="$emit('article-unfocused')"
+        >{{ article.title }}</NuxtLink
+      >
     </h2>
     <p class="blog-article-description">{{ article.description }}</p>
     <div class="blog-article-footer">
@@ -17,10 +24,12 @@
   defineProps<{
     article: BlogCollectionItem;
   }>();
+  defineEmits(['article-focused', 'article-unfocused']);
 </script>
 
 <style lang="css" scoped>
   h2 a {
+    display: block;
     color: var(--primary-green);
     transition: var(--transition);
 

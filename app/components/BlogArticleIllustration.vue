@@ -1,13 +1,24 @@
 <template>
   <div
     class="blog-article-illustration"
-    :class="`illustration-${index}`"></div>
+    :class="[
+      `illustration-${index}`,
+      hasFocusEffect() ? 'has-focus-effect' : ''
+    ]"></div>
 </template>
 
 <script setup lang="ts">
-  defineProps<{
-    index?: number;
+  const props = defineProps<{
+    index: number;
+    focusEffect: { articleIndex: number; hasFocus: boolean };
   }>();
+
+  const hasFocusEffect = (): boolean => {
+    return (
+      props.focusEffect.articleIndex === props.index &&
+      props.focusEffect.hasFocus
+    );
+  };
 </script>
 
 <style lang="css" scoped>
@@ -17,7 +28,7 @@
     margin-bottom: var(--whitespace-secondary);
     opacity: 0.8;
     position: relative;
-    transition: all ease-in;
+    transition: var(--transition);
 
     &::before {
       content: '';
@@ -30,7 +41,7 @@
       opacity: 0;
     }
 
-    &:hover {
+    &.has-focus-effect {
       &::before {
         opacity: 1;
       }
@@ -85,6 +96,27 @@
   }
 
   .illustration-1 {
+    background-color: var(--light-grey);
+    opacity: 0.8;
+    background-image: radial-gradient(
+      circle,
+      var(--secondary-rose) 0.8px,
+      transparent 0.8px
+    );
+    background-size: 10px 25px;
+
+    &::before {
+      background-color: var(--secondary-rose);
+      background-image: radial-gradient(
+        circle,
+        var(--light-grey) 0.8px,
+        transparent 0.8px
+      );
+      background-size: 10px 25px;
+    }
+  }
+
+  .illustration-2 {
     background-color: var(--light-grey);
     opacity: 0.8;
     background-image:
@@ -152,27 +184,6 @@
         0 0,
         0 -0.2px,
         -0.2px 0;
-    }
-  }
-
-  .illustration-2 {
-    background-color: var(--light-grey);
-    opacity: 0.8;
-    background-image: radial-gradient(
-      circle,
-      var(--secondary-rose) 0.8px,
-      transparent 0.8px
-    );
-    background-size: 10px 25px;
-
-    &::before {
-      background-color: var(--secondary-rose);
-      background-image: radial-gradient(
-        circle,
-        var(--light-grey) 0.8px,
-        transparent 0.8px
-      );
-      background-size: 10px 25px;
     }
   }
 
