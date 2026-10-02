@@ -11,7 +11,7 @@
       <p>{{ error.message }}</p>
       <NuxtLink
         to="/"
-        class="block-link error-page-link">
+        class="back-link">
         <Icon
           name="mdi:arrow-left-circle"
           aria-hidden="true" />
@@ -32,11 +32,5 @@
 
   h1 {
     font-size: 10rem;
-  }
-
-  .error-page-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
   }
 </style>

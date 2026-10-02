@@ -36,26 +36,4 @@
       padding: 4rem;
     }
   }
-
-  .back-to-blog-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-    color: var(--primary-green);
-    transition: var(--transition);
-
-    .iconify {
-      position: relative;
-      left: 0;
-      transition: var(--transition);
-    }
-
-    &:hover {
-      color: var(--secondary-rose);
-
-      .iconify {
-        left: -0.25rem;
-      }
-    }
-  }
 </style>
