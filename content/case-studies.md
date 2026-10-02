@@ -13,9 +13,11 @@
 [2026]{.date}
 
 #description
-I&nbsp;[facilitated discussion between UX, Product, Backend and Tech writing stakeholders](https://gitlab.com/gitlab-org/gitlab/-/work_items/580999#note_2939942530){.inline-link},
-ensuring feature constrains are defined and edge cases planned for. By [refactoring existing components](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/217416){.inline-link},
-I&nbsp;was able to implement a&nbsp;reusable UI&nbsp;communicating with backend via&nbsp;GraphQL [query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/221525){.inline-link}
+I&nbsp;[facilitated discussion](https://gitlab.com/gitlab-org/gitlab/-/work_items/580999#note_2939942530){.inline-link}
+between UX, Product, Backend and Tech writing stakeholders, ensuring feature constrains are defined and edge cases planned for.
+By [refactoring existing components](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/217416){.inline-link},
+I&nbsp;was able to implement a&nbsp;reusable UI&nbsp;communicating with backend via&nbsp;GraphQL
+[query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/221525){.inline-link}
 and [mutation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/222330){.inline-link}.
 
 ::
@@ -31,9 +33,11 @@ and [mutation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/222330){.in
 [2025]{.date}
 
 #description
-I&nbsp;worked on a&nbsp;major version upgrade of GitLab’s Storybook, followed by [adding the Storybook test-runner](https://gitlab.com/gitlab-org/gitlab/-/work_items/507448){.inline-link}
+I&nbsp;worked on a&nbsp;major version upgrade of GitLab’s Storybook, followed by
+[adding the Storybook test-runner](https://gitlab.com/gitlab-org/gitlab/-/work_items/507448){.inline-link}
 to be used both locally and in CI/CD. This initiative allowed out-of-the-box automated accessibility
-testing on the component level and opened possibility to [guard each submitted merge request against regressions](https://gitlab.com/gitlab-org/gitlab/-/work_items/562323){.inline-link},
+testing on the component level and opened possibility to
+[guard each submitted merge request against regressions](https://gitlab.com/gitlab-org/gitlab/-/work_items/562323){.inline-link},
 providing short feedback loop for code authors and reviewers.
 
 ::
@@ -71,7 +75,8 @@ I&nbsp;identified and proactively addressed cross-team dependencies to ensure su
 [2023 - present, Warsaw, Poland]{.date}
 
 #description
-I&nbsp;lead GitLab's [Product Accessibility Working Group](https://handbook.gitlab.com/handbook/company/working-groups/product-accessibility/){.inline-link}, where we focus on defining technical strategies for
+I&nbsp;lead GitLab's [Product Accessibility Working Group](https://handbook.gitlab.com/handbook/company/working-groups/product-accessibility/){.inline-link},
+where we focus on defining technical strategies for
 accessibility automations and tools adoption. I&nbsp;coordinate with
 cross-functional teams to ensure that accessibility is integrated
 into the product development lifecycle. I&nbsp;also mentor team members
