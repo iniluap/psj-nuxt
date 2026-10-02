@@ -32,6 +32,7 @@ h2 {
   margin-bottom: var(--whitespace-secondary);
 }
 
+/* LINKS */
 .block-link {
   color: var(--dark-grey);
   text-decoration: none;
@@ -93,10 +94,7 @@ h2 {
   }
 }
 
-.center {
-  text-align: center;
-}
-
+/* LISTS */
 ul {
   list-style: square;
 }
