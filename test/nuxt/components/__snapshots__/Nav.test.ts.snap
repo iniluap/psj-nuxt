@@ -4,9 +4,10 @@ exports[`Nav component > mounts correctly 1`] = `
 "<nav data-v-55f34df1="" aria-label="Main navigation" class="is-closed-nav"><button data-v-55f34df1="" aria-label="Open menu" aria-haspopup="true" aria-controls="menu-list" aria-expanded="false" class="open-trigger"><span data-v-55f34df1="" class="iconify i-mdi:menu" aria-hidden="true" style="font-size: 2rem;"></span></button>
   <ul data-v-55f34df1="" id="menu-list" class="ul-plain" role="menu" aria-label="Main navigation">
     <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/" role="menuitem" class="block-link nav-link">Home</a></li>
-    <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/work" role="menuitem" class="block-link nav-link">How I work</a></li>
-    <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/case-studies" role="menuitem" class="block-link nav-link">Case studies</a></li>
-    <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/background" role="menuitem" class="block-link nav-link">My Background</a></li>
+    <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/work/" role="menuitem" class="block-link nav-link">How I work</a></li>
+    <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/case-studies/" role="menuitem" class="block-link nav-link">Case studies</a></li>
+    <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/background/" role="menuitem" class="block-link nav-link">My Background</a></li>
+    <li data-v-55f34df1="" role="none"><a data-v-55f34df1="" href="/blog/" role="menuitem" class="block-link nav-link">Blog</a></li>
   </ul>
 </nav>"
 `;
