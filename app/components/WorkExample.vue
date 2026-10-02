@@ -50,7 +50,7 @@
 
     p {
       padding-left: var(--whitespace-secondary);
-      border-left: 2px solid var(--tertiary-yellow);
+      border-left: 1px solid var(--tertiary-yellow);
     }
   }
 </style>

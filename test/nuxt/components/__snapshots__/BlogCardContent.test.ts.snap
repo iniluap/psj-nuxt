@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BlogCardContent > mounts correctly 1`] = `
+"<div data-v-6b60979c="" class="blog-article-data">
+  <h2 data-v-6b60979c=""><a data-v-6b60979c="" href="/www.example.com">My blog post</a></h2>
+  <p data-v-6b60979c="" class="blog-article-description">My blog post description</p>
+  <div data-v-6b60979c="" class="blog-article-footer"><span data-v-6b60979c="">01-01-2025</span><span data-v-6b60979c="">Reading time: 2 min</span></div>
+</div>"
+`;

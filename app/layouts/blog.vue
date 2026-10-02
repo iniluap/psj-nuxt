@@ -38,9 +38,19 @@
     gap: var(--whitespace-primary);
   }
 
-  @media screen and (min-width: 768px) {
-    .blog-hero-article,
-    .blog-article {
+  .blog-hero-article,
+  .blog-article {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      bottom: -1.5rem;
+      border-bottom: 1px solid var(--dark-grey);
+    }
+
+    @media screen and (min-width: 768px) {
       padding: var(--whitespace-secondary);
     }
   }
@@ -71,6 +81,12 @@
     @media screen and (min-width: 768px) {
       grid-column: initial;
       position: relative;
+
+      &::before {
+        /* reset bottom lines below 768px */
+        width: 0;
+        bottom: 0;
+      }
 
       &:nth-child(even)::before {
         content: '';

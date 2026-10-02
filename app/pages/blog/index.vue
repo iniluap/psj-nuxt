@@ -6,6 +6,9 @@
   definePageMeta({
     layout: 'blog'
   });
+  useHead({
+    title: 'Frontend journal'
+  });
 
   const { data: articles } = await useAsyncData('article-', () => {
     return queryCollection('blog').order('date', 'ASC').all();

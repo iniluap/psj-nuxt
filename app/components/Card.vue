@@ -21,14 +21,12 @@
 <style>
   .card {
     background-color: var(--white);
-    border: 2px solid var(--secondary-blue);
-    border-radius: 2rem;
-    box-shadow: var(--layered-shadow);
+    border-left: 1px solid var(--tertiary-yellow);
     padding: 2rem;
     margin-bottom: 5rem;
     display: grid;
     grid-row: span 3;
-    gap: 0;
+    gap: 1rem;
     grid-template-rows: subgrid;
 
     @media screen and (min-width: 992px) {
@@ -37,9 +35,12 @@
 
     h2,
     h3 {
-      margin-bottom: 0;
       font-size: 2.2rem;
     }
+  }
+
+  .card :is(h2, h3, p, ul) {
+    margin-bottom: 0;
   }
 
   .card-extended {
@@ -53,7 +54,6 @@
   .card-label,
   .date {
     display: block;
-    margin-top: 1rem;
   }
 
   .card-label {
