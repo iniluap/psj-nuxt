@@ -4,7 +4,7 @@
 
 ::cardWrapper
 
-::card{.card-wide}
+::card
 
 ### Accessibility (self-study)
 
@@ -27,7 +27,7 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 
 ::
 
-::card{.card-wide}
+::card
 
 ### Programming (self-study)
 
