@@ -14,7 +14,8 @@ export default defineContentConfig({
         title: z.string(),
         description: z.string().optional(),
         minRead: z.number(),
-        date: z.date()
+        date: z.date(),
+        articleIndex: z.number()
       })
     })
   }
