@@ -38,15 +38,17 @@
     gap: var(--whitespace-primary);
   }
 
-  .blog-hero-article,
-  .blog-article {
-    @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
+    .blog-hero-article,
+    .blog-article {
       padding: var(--whitespace-secondary);
     }
   }
 
   .blog-hero-article {
     grid-column: 1 / 3;
+    /* making up for gap and padding on two column layout below */
+    column-gap: calc(var(--whitespace-primary) * 2);
 
     @media screen and (min-width: 768px) {
       display: grid;
@@ -77,61 +79,6 @@
         right: -1.5rem;
         border-right: 1px solid var(--dark-grey);
       }
-    }
-  }
-
-  .blog-article-illustration {
-    width: 100%;
-    height: 18rem;
-    margin-bottom: var(--whitespace-secondary);
-    opacity: 0.8;
-    background:
-      repeating-linear-gradient(
-        -45deg,
-        var(--light-grey) 0px,
-        var(--light-grey) 5px,
-        transparent 5px,
-        transparent 8px
-      ),
-      repeating-linear-gradient(
-        45deg,
-        var(--light-grey) 0px,
-        var(--light-grey) 5px,
-        transparent 5px,
-        transparent 8px
-      ),
-      linear-gradient(var(--secondary-blue), var(--secondary-blue));
-
-    .blog-hero-article & {
-      @media screen and (min-width: 768px) {
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  .blog-article-data {
-    display: flex;
-    flex-direction: column;
-    gap: var(--whitespace-secondary);
-
-    * {
-      margin: 0;
-    }
-  }
-
-  .blog-article-description {
-    flex-grow: 1;
-  }
-
-  .blog-article-footer {
-    font-size: 1.4rem;
-    display: flex;
-    flex-direction: column;
-
-    @media screen and (min-width: 480px) {
-      flex-direction: row;
-      justify-content: space-between;
-      gap: var(--whitespace-secondary);
     }
   }
 </style>

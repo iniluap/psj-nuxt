@@ -3,6 +3,7 @@ title: 'Third article'
 description: This is a third article on this blog
 date: 2026-09-30
 minRead: 1
+articleIndex: 2
 ---
 
 ## Intro
