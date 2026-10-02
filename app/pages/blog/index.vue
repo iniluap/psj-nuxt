@@ -1,4 +1,6 @@
 <script setup lang="ts">
+  import '~/assets/css/backgrounds.css';
+
   import { ref } from 'vue';
 
   definePageMeta({
@@ -6,7 +8,7 @@
   });
 
   const { data: articles } = await useAsyncData('article-', () => {
-    return queryCollection('blog').order('date', 'DESC').all();
+    return queryCollection('blog').order('date', 'ASC').all();
   });
 
   if (!articles.value) {

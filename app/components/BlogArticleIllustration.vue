@@ -1,8 +1,8 @@
 <template>
   <div
-    class="blog-article-illustration"
+    class="article-background"
     :class="[
-      `illustration-${index}`,
+      `article-background-${index}`,
       hasFocusEffect() ? 'has-focus-effect' : ''
     ]"></div>
 </template>
@@ -22,7 +22,7 @@
 </script>
 
 <style lang="css" scoped>
-  .blog-article-illustration {
+  .article-background {
     width: 100%;
     height: 18rem;
     margin-bottom: var(--whitespace-secondary);
@@ -57,7 +57,7 @@
   /* Background patterns from @d__raptis
      Explore at https://www.magicpattern.design/tools/css-backgrounds */
 
-  .illustration-0 {
+  /* .article-background-0 {
     background:
       repeating-linear-gradient(
         -45deg,
@@ -95,7 +95,7 @@
     }
   }
 
-  .illustration-1 {
+  .article-background-1 {
     background-color: var(--light-grey);
     opacity: 0.8;
     background-image: radial-gradient(
@@ -116,7 +116,7 @@
     }
   }
 
-  .illustration-2 {
+  .article-background-2 {
     background-color: var(--light-grey);
     opacity: 0.8;
     background-image:
@@ -187,7 +187,7 @@
     }
   }
 
-  .illustration-3 {
+  .article-background-3 {
     opacity: 0.8;
     background: repeating-radial-gradient(
       circle at 50% 50%,
@@ -211,5 +211,5 @@
         var(--tertiary-yellow) 10px
       );
     }
-  }
+  } */
 </style>

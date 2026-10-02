@@ -19,37 +19,6 @@
     grid-column: 1 / -1;
     align-self: stretch;
     background-color: var(--light-grey);
-    background-image:
-      repeating-linear-gradient(
-        to right,
-        transparent 0,
-        transparent 1.6666666666666667px,
-        var(--light-grey) 1.6666666666666667px,
-        var(--light-grey) 5px,
-        transparent 5px,
-        transparent 6.666666666666667px
-      ),
-      repeating-linear-gradient(
-        to bottom,
-        transparent 0,
-        transparent 1.6666666666666667px,
-        var(--light-grey) 1.6666666666666667px,
-        var(--light-grey) 5px,
-        transparent 5px,
-        transparent 6.666666666666667px
-      ),
-      linear-gradient(to bottom, var(--primary-green) 0.6px, transparent 0.6px),
-      linear-gradient(to right, var(--primary-green) 0.6px, transparent 0.6px);
-    background-size:
-      100% 100%,
-      100% 100%,
-      20px 20px,
-      20px 20px;
-    background-position:
-      0 0,
-      0 0,
-      0 -0.2px,
-      -0.2px 0;
   }
 
   .article-hero-section-content {

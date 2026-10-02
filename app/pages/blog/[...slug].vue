@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import '~/assets/css/backgrounds.css';
   import { withoutTrailingSlash } from 'ufo';
 
   const route = useRoute();
@@ -25,7 +26,9 @@
 </script>
 
 <template>
-  <section class="article-hero-section">
+  <section
+    class="article-hero-section"
+    :class="`article-background-${article?.articleIndex}`">
     <div class="article-hero-section-content">
       <NuxtLink
         to="/blog/"
