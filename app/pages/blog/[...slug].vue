@@ -36,7 +36,7 @@
         <Icon
           name="mdi:arrow-left-circle"
           aria-hidden="true" />
-        Go back
+        Back to blog
       </NuxtLink>
       <h1>{{ article?.title }}</h1>
     </div>
