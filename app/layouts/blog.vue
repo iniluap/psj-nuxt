@@ -57,6 +57,7 @@
 
   .blog-hero-article {
     grid-column: 1 / 3;
+    grid-row: 1;
     /* making up for gap and padding on two column layout below */
     column-gap: calc(var(--whitespace-primary) * 2);
 

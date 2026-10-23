@@ -22,6 +22,14 @@
     });
   }
 
+  let [heroArticle] = articles.value.filter(
+    (article) => article.articleIndex === 0
+  );
+
+  let filteredArticles = articles.value.filter(
+    (article) => article.articleIndex !== 0
+  );
+
   let focusEffect = ref({ articleIndex: 0, hasFocus: false });
 
   const setFocusEffect = (index: number): void => {
@@ -44,16 +52,27 @@
     class="blog-content"
     id="main-content">
     <div
-      v-for="(article, index) in articles"
-      :key="index"
-      :class="[index === 0 ? 'blog-hero-article' : 'blog-article']">
+      class="blog-hero-article"
+      v-if="heroArticle">
       <BlogArticleIllustration
-        :index="index"
+        :index="heroArticle.articleIndex"
+        :focusEffect="focusEffect" />
+      <BlogCardContent
+        :article="heroArticle"
+        @articleFocused="setFocusEffect(heroArticle.articleIndex)"
+        @articleUnfocused="removeFocusEffect(heroArticle.articleIndex)" />
+    </div>
+    <div
+      v-for="(article, index) in filteredArticles"
+      :key="article.articleIndex"
+      class="blog-article">
+      <BlogArticleIllustration
+        :index="article.articleIndex"
         :focusEffect="focusEffect" />
       <BlogCardContent
         :article="article"
-        @articleFocused="setFocusEffect(index)"
-        @articleUnfocused="removeFocusEffect(index)" />
+        @articleFocused="setFocusEffect(article.articleIndex)"
+        @articleUnfocused="removeFocusEffect(article.articleIndex)" />
     </div>
   </section>
 </template>
