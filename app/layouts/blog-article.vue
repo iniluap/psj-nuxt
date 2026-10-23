@@ -11,6 +11,11 @@
       [hero-start] minmax(min-content, 40vh)
       [content-start] auto
       [footer-start] minmax(6rem, min-content) [page-end];
+    grid-template-columns:
+      minmax(var(--whitespace-secondary), 1fr)
+      minmax(20rem, 75ch)
+      minmax(var(--whitespace-secondary), 1fr);
+    font-size: 2rem;
   }
 
   .article-hero-section {
