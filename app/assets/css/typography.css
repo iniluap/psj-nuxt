@@ -47,10 +47,10 @@ h2 {
   &::before {
     content: '';
     background-color: var(--secondary-rose);
-    width: 100%;
+    width: 110%;
     height: 0.25rem;
     position: absolute;
-    left: 0;
+    left: -5%;
     bottom: 0;
     z-index: -1;
     transition: var(--transition);
