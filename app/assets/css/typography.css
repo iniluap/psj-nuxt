@@ -32,6 +32,10 @@ h2 {
   margin-bottom: var(--whitespace-secondary);
 }
 
+.blog-article-layout {
+  font-size: 2rem;
+}
+
 /* LINKS */
 .block-link {
   color: var(--dark-grey);

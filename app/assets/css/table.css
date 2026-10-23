@@ -1,0 +1,51 @@
+.table-container {
+  overflow-x: scroll;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    overflow-x: auto;
+  }
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+tbody td:nth-child(1),
+tbody th:nth-child(1) {
+  position: sticky;
+  left: 0;
+  z-index: 5;
+}
+
+tbody tr:nth-child(even),
+tbody tr:nth-child(even) th {
+  background-color: var(--light-grey);
+}
+
+tbody tr:nth-child(odd) th {
+  background-color: var(--white);
+}
+
+th,
+td {
+  padding: 0.4rem 0.6rem;
+  vertical-align: top;
+}
+
+th[scope='col'] {
+  border-bottom: 1px solid var(--secondary-blue);
+}
+
+tr th:nth-child(1) {
+  border-right: 1px solid var(--secondary-blue);
+  text-align: left;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 1rem;
+  font-size: 1.6rem;
+}

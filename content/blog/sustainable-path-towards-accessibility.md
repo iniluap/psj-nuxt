@@ -69,54 +69,56 @@ overlap only partly. Layers that can be skipped are backed up by layers that can
 extension) or only observe (monitoring). Others are blocking: Storybook and feature tests run in CI and stop a&nbsp;merge when they find a
 violation.
 
-<table>
-<tr>
-    <th scope="col">Tool </th>
-    <th scope="col">When to use</th>
-    <th scope="col">Coverage</th>
-    <th scope="col">Feedback timing</th>
-    <th scope="col">Enforcement</th>
-  </tr>
-  <tr>
-    <th scope="row">linting</th>
-    <td>while writing code</td>
-    <td>JS, Vue, Markdown files</td>
-    <td>real-time in editor</td>
-    <td>optional </td>
-  </tr>
-  <tr>
-    <th scope="row">Storybook tests</th>
-    <td>component development, feature development</td>
-    <td>Vue components in isolation</td>
-    <td>local testing and CI pipeline on frontend changes</td>
-    <td>blocking in CI</td>
-  </tr>
-  <tr>
-    <th scope="row">feature tests</th>
-    <td>feature development</td>
-    <td>complete user journeys, HAML, Vue, JS components</td>
-    <td>local testing and CI pipeline on frontend changes</td>
-    <td>blocking in CI</td>
-  </tr>
-  <tr>
-    <th scope="row">browser extension</th>
-    <td>feature development, code review & debugging</td>
-    <td>any page or part of the page</td>
-    <td>manual, immediate</td>
-    <td>advisory</td>
-  </tr>
-  <tr>
-    <th scope="row">monitoring</th>
-    <td>production oversight</td>
-    <td>key application pages</td>
-    <td>continuous monitoring</td>
-    <td>advisory</td>
-  </tr>
-  <caption>
-    Source: Adapted from <a href="https://docs.gitlab.com/development/fe_guide/accessibility/#how-our-accessibility-tools-work-together" class="inline-link">Accessibility. How our accessibility tools work together</a>,
-    GitLab Docs, with an added Enforcement column, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="inline-link">CC BY-SA 4.0</a>.
-  </caption>
-</table>
+<div class="table-container">
+  <table>
+    <tr>
+      <th scope="col">Tool </th>
+      <th scope="col">When to use</th>
+      <th scope="col">Coverage</th>
+      <th scope="col">Feedback timing</th>
+      <th scope="col">Enforcement</th>
+    </tr>
+    <tr>
+      <th scope="row">linting</th>
+      <td>while writing code</td>
+      <td>JS, Vue, Markdown files</td>
+      <td>real-time in editor</td>
+      <td>optional </td>
+    </tr>
+    <tr>
+      <th scope="row">Storybook tests</th>
+      <td>component development, feature development</td>
+      <td>Vue components in isolation</td>
+      <td>local testing and CI pipeline on frontend changes</td>
+      <td>blocking in CI</td>
+    </tr>
+    <tr>
+      <th scope="row">feature tests</th>
+      <td>feature development</td>
+      <td>complete user journeys, HAML, Vue, JS components</td>
+      <td>local testing and CI pipeline on frontend changes</td>
+      <td>blocking in CI</td>
+    </tr>
+    <tr>
+      <th scope="row">browser extension</th>
+      <td>feature development, code review & debugging</td>
+      <td>any page or part of the page</td>
+      <td>manual, immediate</td>
+      <td>advisory</td>
+    </tr>
+    <tr>
+      <th scope="row">monitoring</th>
+      <td>production oversight</td>
+      <td>key application pages</td>
+      <td>continuous monitoring</td>
+      <td>advisory</td>
+    </tr>
+    <caption>
+      Source: Adapted from <a href="https://docs.gitlab.com/development/fe_guide/accessibility/#how-our-accessibility-tools-work-together" class="inline-link">Accessibility. How our accessibility tools work together</a>,
+      GitLab Docs, with an added Enforcement column, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="inline-link">CC BY-SA 4.0</a>.
+    </caption>
+  </table>
+</div>
 
 Linting offers the most immediate feedback to engineers, but it also comes with quite a&nbsp;number of limitations. Since it works against source
 code, not rendered HTML, the number of violations it can find is even lower than what other automations offer. In case of more custom syntax,
