@@ -1,6 +1,7 @@
 .table-container {
-  overflow-x: scroll;
   width: 100%;
+  margin: 4rem 0;
+  overflow-x: scroll;
 
   @media screen and (min-width: 768px) {
     overflow-x: auto;
@@ -11,6 +12,7 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   table-layout: fixed;
+  font-size: 1.8rem;
 }
 
 tbody td:nth-child(1),
