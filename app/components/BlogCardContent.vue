@@ -35,8 +35,6 @@
 
     &:hover {
       color: var(--secondary-rose);
-      font-weight: 700;
-      letter-spacing: 0.23rem;
     }
   }
 
