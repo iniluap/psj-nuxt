@@ -20,8 +20,13 @@
 
 <style>
   .card {
-    background-color: var(--white);
-    border-left: 1px solid var(--tertiary-yellow);
+    background-color: var(--light-grey);
+    background:
+      radial-gradient(at 82% 55%, var(--light-grey), transparent 60%),
+      radial-gradient(at 18% 38%, var(--white), transparent 90%),
+      var(--light-grey);
+    border-radius: 2rem;
+    border: 1px solid var(--light-grey);
     padding: 2rem;
     margin-bottom: 5rem;
     display: grid;
