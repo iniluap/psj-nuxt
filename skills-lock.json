@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "skills": {
+    "cruft-hunt": {
+      "source": "unlearndev/skills",
+      "commit": "b74b9987940fcd63a2d152f9ba5974afef03a756",
+      "sourceType": "github",
+      "skillPath": "skills/cruft-hunt/SKILL.md",
+      "computedHash": "263195cd4e2d557f1b5a28be8a67cf3d9c3aca6c3adb0b77d5c2c0f3b6f44446"
+    },
+    "is-it-dead": {
+      "source": "unlearndev/skills",
+      "commit": "b74b9987940fcd63a2d152f9ba5974afef03a756",
+      "sourceType": "github",
+      "skillPath": "skills/is-it-dead/SKILL.md",
+      "computedHash": "b50653f495f9e21800f1dc464846c7af82917293de95c9202506c26b37e9322e"
+    },
+    "leftovers": {
+      "source": "unlearndev/skills",
+      "commit": "b74b9987940fcd63a2d152f9ba5974afef03a756",
+      "sourceType": "github",
+      "skillPath": "skills/leftovers/SKILL.md",
+      "computedHash": "5b1377127121d60154cbb3405836b6e933aac1ba048de4a9cb1e4e011124534e"
+    }
+  }
+}
