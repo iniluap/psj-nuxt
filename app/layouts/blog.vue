@@ -57,6 +57,7 @@
 
   .blog-hero-article {
     grid-column: 1 / 3;
+    grid-row: 1;
     /* making up for gap and padding on two column layout below */
     column-gap: calc(var(--whitespace-primary) * 2);
 
@@ -73,6 +74,12 @@
         border-bottom: 1px solid var(--dark-grey);
       }
     }
+  }
+
+  .blog-content-placeholder {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    margin-top: var(--whitespace-primary);
   }
 
   .blog-article {

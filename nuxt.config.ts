@@ -71,5 +71,9 @@ export default defineNuxtConfig({
     '@nuxt/a11y'
   ],
   devtools: { enabled: true, timeline: { enabled: true } },
+  a11y: {
+    defaultHighlight: true,
+    logIssues: true
+  },
   compatibilityDate: '2024-04-03'
 });

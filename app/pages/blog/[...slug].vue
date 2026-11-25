@@ -28,6 +28,7 @@
 <template>
   <section
     class="article-hero-section"
+    id="article-hero-section"
     :class="`article-background-${article?.articleIndex}`">
     <div class="article-hero-section-content">
       <NuxtLink
