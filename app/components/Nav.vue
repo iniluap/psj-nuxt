@@ -41,16 +41,20 @@
       name: 'Home'
     },
     {
-      to: '/work',
+      to: '/work/',
       name: 'How I work'
     },
     {
-      to: '/case-studies',
+      to: '/case-studies/',
       name: 'Case studies'
     },
     {
-      to: '/background',
+      to: '/background/',
       name: 'My Background'
+    },
+    {
+      to: '/blog/',
+      name: 'Blog'
     }
   ];
 

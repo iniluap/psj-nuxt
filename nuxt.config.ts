@@ -14,17 +14,7 @@ export default defineNuxtConfig({
         lang: 'en'
       },
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/icon.svg' },
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.gstatic.com',
-          crossorigin: 'anonymous'
-        },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Gilda+Display&family=Raleway:wght@400..800&display=swap'
-        }
+        { rel: 'icon', type: 'image/x-icon', href: '/icon.svg' }
       ]
     }
   },
@@ -62,8 +52,8 @@ export default defineNuxtConfig({
       subsets: ['latin', 'latin-ext']
     },
     families: [
-      { name: 'Raleway', provider: 'google' },
-      { name: 'Gilda Display', provider: 'google' }
+      { name: 'Ysabeau SC', provider: 'google' },
+      { name: 'Ysabeau', provider: 'google' }
     ]
   },
   sourcemap: {
@@ -81,5 +71,9 @@ export default defineNuxtConfig({
     '@nuxt/a11y'
   ],
   devtools: { enabled: true, timeline: { enabled: true } },
+  a11y: {
+    defaultHighlight: true,
+    logIssues: true
+  },
   compatibilityDate: '2024-04-03'
 });

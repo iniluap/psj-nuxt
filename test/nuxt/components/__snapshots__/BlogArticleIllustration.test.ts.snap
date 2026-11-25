@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BlogArticleIllustration > mounts correctly 1`] = `"<div data-v-5d570c06="" class="article-background article-background-0"></div>"`;
+
+exports[`BlogArticleIllustration > mounts correctly without focus effect 1`] = `"<div data-v-5d570c06="" class="article-background article-background-0"></div>"`;

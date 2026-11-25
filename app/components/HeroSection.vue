@@ -49,19 +49,19 @@
     }
 
     @media screen and (min-width: 768px) {
-      width: 340px;
+      width: 360px;
     }
   }
 
   h1 {
     margin: 0;
-    font-size: clamp(3rem, 5vw, 4rem);
+    font-size: clamp(2.5rem, 3rem, 4rem);
   }
 
   strong {
     color: var(--secondary-rose);
     font-weight: 400;
-    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-size: clamp(1.5rem, 2rem, 2.5rem);
   }
 
   figure {

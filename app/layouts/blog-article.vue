@@ -1,0 +1,59 @@
+<template>
+  <main class="blog-article-layout">
+    <slot />
+    <div class="content-container back-to-top-link">
+      <a
+        href="#article-hero-section"
+        class="back-link">
+        <Icon
+          name="mdi:arrow-top-circle"
+          aria-hidden="true" />
+        Back to the top
+      </a>
+    </div>
+  </main>
+</template>
+
+<style>
+  .blog-article-layout {
+    /* Specify minimum height for rows to reduce CLS */
+    grid-template-rows:
+      [hero-start] minmax(min-content, 40vh)
+      [content-start] auto
+      [content-end] auto
+      [footer-start] minmax(6rem, min-content) [page-end];
+    grid-template-columns:
+      minmax(var(--whitespace-secondary), 1fr)
+      minmax(20rem, 75ch)
+      minmax(var(--whitespace-secondary), 1fr);
+    font-size: 2rem;
+  }
+
+  .article-hero-section {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / -1;
+    align-self: stretch;
+    background-color: var(--light-grey);
+  }
+
+  .article-hero-section-content {
+    margin: 0;
+    margin-top: 7rem;
+    padding: 2rem;
+    background-color: var(--light-grey);
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column-start: 2;
+    align-self: center;
+    row-gap: var(--whitespace-secondary);
+
+    @media screen and (min-width: 480px) {
+      padding: 4rem;
+    }
+  }
+
+  .back-to-top-link {
+    grid-row: content-end;
+  }
+</style>

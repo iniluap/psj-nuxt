@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import '~/assets/css/global.css';
   import '~/assets/css/typography.css';
+  import '~/assets/css/table.css';
 
   useSeoMeta({
     title: 'Paulina Sędłak-Jakubowska',

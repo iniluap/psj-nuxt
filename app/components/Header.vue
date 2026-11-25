@@ -39,7 +39,7 @@
   }
 
   .logo {
-    font-family: 'Gilda Display', serif;
+    font-family: 'Ysabeau', sans-serif;
     font-size: 2rem;
   }
 </style>
