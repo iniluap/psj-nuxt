@@ -74,5 +74,20 @@
         @articleFocused="setFocusEffect(article.articleIndex)"
         @articleUnfocused="removeFocusEffect(article.articleIndex)" />
     </div>
+    <div
+      v-if="filteredArticles.length < 2"
+      class="blog-content-placeholder">
+      <h2>More to come when code compiles</h2>
+      <p>
+        I write here occasionally. No strict schedule, just deep dives,
+        debugging notes, and architecture thoughts when they're ready. Follow me
+        on
+        <a
+          href="https://www.linkedin.com/in/psjakubowska/"
+          class="inline-link"
+          >LinkedIn</a
+        >, if you want to be notified of new articles.
+      </p>
+    </div>
   </section>
 </template>

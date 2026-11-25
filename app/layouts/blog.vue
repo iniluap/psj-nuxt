@@ -76,6 +76,12 @@
     }
   }
 
+  .blog-content-placeholder {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    margin-top: var(--whitespace-primary);
+  }
+
   .blog-article {
     grid-column: 1 / 3;
 
