@@ -8,12 +8,15 @@
 
 ### Accessibility (self-study)
 
+<!-- prettier-ignore -->
 #label
 [Deque University]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [2024-2025]{.date}
 
+<!-- prettier-ignore -->
 #description
 I&nbsp;completed Comprehensive Web and Digital Accessibility Training
 covering web, documents, PDF, mobile apps, and more. This training
@@ -31,12 +34,15 @@ IAAP</abbr> exam. Some of the modules I've learned the most from are:
 
 ### Programming (self-study)
 
+<!-- prettier-ignore -->
 #label
 [Online trainings & on-site workshops]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [since 2016]{.date}
 
+<!-- prettier-ignore -->
 #description
 I&nbsp;learned programming by taking on-line courses, tutorials and
 reading industry books. I&nbsp;also participated in commmunity
@@ -52,12 +58,15 @@ workshops. The events I&nbsp;benefited from the most were:
 
 ### Digital Hygiene
 
+<!-- prettier-ignore -->
 #label
 [Open University, University of Warsaw]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [December 2025]{.date}
 
+<!-- prettier-ignore -->
 #description
 I&nbsp;participated in intensive workshop focused on proactive habits and practices
 for working with LLMs. Some of the topics that had an impact on my work:
@@ -73,12 +82,15 @@ for working with LLMs. Some of the topics that had an impact on my work:
 
 ### English Philology, B.A.
 
+<!-- prettier-ignore -->
 #label
 [University of Silesia&nbsp;in Katowice]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [2012 - 2015]{.date}
 
+<!-- prettier-ignore -->
 #description
 Thesis in applied linguistics on socio-cultural images of femininity in newspaper discourse.
 ::
@@ -95,76 +107,96 @@ Thesis in applied linguistics on socio-cultural images of femininity in newspape
 
 ### PyLight Waw
 
+<!-- prettier-ignore -->
 #label
 [Organiser]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [2017 - 2020, Warsaw, Poland]{.date}
 
+<!-- prettier-ignore -->
 #description
 I&nbsp;organised a&nbsp;monthly meetup for beginners in Python. I&nbsp;was one of
 the people who updated and tweaked the website, ran social media
 accounts, and managed events on-site.
 
+<!-- prettier-ignore -->
 #resources
 [Website](http://www.pylight.org/){.block-link aria-describedby="pylight-waw"}&nbsp;
 [Facebook](https://www.facebook.com/pylightmeetup){.block-link aria-describedby="pylight-waw"}
+
 ::
 
 ::card
 
 ### PyLight Waw #8
 
+<!-- prettier-ignore -->
 #label
 [Speaker]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [Sep 2018, Warsaw, Poland]{.date}
 
+<!-- prettier-ignore -->
 #description
 I&nbsp;delivered a&nbsp;presentation on the basic concepts of Scrum.
 
+<!-- prettier-ignore -->
 #resources
 [YouTube](https://www.youtube.com/watch?v=N34jrb-IL2E){.block-link aria-describedby="pylight-waw-8"}&nbsp;
 [Slides](https://slides.com/iniluap/scrum){.block-link aria-describedby="pylight-waw-8"}
+
 ::
 
 ::card
 
 ### DjangoGirls Warsaw
 
+<!-- prettier-ignore -->
 #label
 [Organiser]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [Dec 2016 - Feb 2019, Warsaw, Poland]{.date}
 
+<!-- prettier-ignore -->
 #description
 I&nbsp;co-organised two editions of a&nbsp;programming workshop for a&nbsp;group of 45 women.
 I&nbsp;managed the event website, trained mentors, and designed printed and online graphic materials.
 
+<!-- prettier-ignore -->
 #resources
 [Website](https://djangogirls.org/en/warszawa/){.block-link aria-describedby="djangogirls-warsaw"}&nbsp;
 [Facebook](https://www.facebook.com/DjangoGirlsWarsaw){.block-link aria-describedby="djangogirls-warsaw"}
+
 ::
 
 ::card
 
 ### CISV International
 
+<!-- prettier-ignore -->
 #label
 [Training Coordinator & Youth Leader]{.card-label}
 
+<!-- prettier-ignore -->
 #date
 [Jun 2014 - 2019, EMEa&nbsp;& Poland]{.date}
 
+<!-- prettier-ignore -->
 #description
 I&nbsp;designed and conducted trainings on peace education, sustainable development and conflict
 resolution on both local and international level, for children, young adults and adult volounteers.
 
+<!-- prettier-ignore -->
 #resources
 [CISV Poland](https://pl.cisv.org/){.block-link}&nbsp;
 [CISV International](https://cisv.org/){.block-link}
+
 ::
 
 ::
