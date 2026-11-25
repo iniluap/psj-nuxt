@@ -48,6 +48,7 @@
 <style scoped>
   footer {
     background-color: var(--secondary-rose);
+    margin-top: var(--whitespace-primary);
     padding: 0 var(--whitespace-secondary);
     grid-area: footer-start;
     grid-column: 1 / -1;

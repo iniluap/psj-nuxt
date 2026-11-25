@@ -64,11 +64,11 @@
   .card-label {
     color: var(--secondary-rose);
     font-family: 'Ysabeau', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .date {
     color: var(--secondary-blue);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 </style>

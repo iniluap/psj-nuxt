@@ -26,8 +26,7 @@
     grid-column: 2 / 4;
     grid-row: hero-start;
     padding: var(--whitespace-secondary) 0;
-    border-top: 1px solid var(--dark-grey);
-    border-bottom: 1px solid var(--dark-grey);
+    border-bottom: 1px solid var(--medium-grey);
   }
 
   .blog-content {
@@ -47,7 +46,7 @@
       position: absolute;
       width: 100%;
       bottom: -1.5rem;
-      border-bottom: 1px solid var(--dark-grey);
+      border-bottom: 1px solid var(--medium-grey);
     }
 
     @media screen and (min-width: 768px) {
@@ -71,7 +70,7 @@
         position: absolute;
         width: 100%;
         bottom: -1.5rem;
-        border-bottom: 1px solid var(--dark-grey);
+        border-bottom: 1px solid var(--medium-grey);
       }
     }
   }
@@ -100,7 +99,7 @@
         position: absolute;
         height: calc(100% - 2rem);
         right: -1.5rem;
-        border-right: 1px solid var(--dark-grey);
+        border-right: 1px solid var(--medium-grey);
       }
     }
   }
