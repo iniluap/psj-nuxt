@@ -1,5 +1,5 @@
 ---
-title: Scaling for a&nbsp;sustainable path towards accessibility
+title: Scaling for a sustainable path towards accessibility
 description:
   How layers of automations and processes can help making complex application
   accessible.
@@ -21,15 +21,16 @@ fewer regressions and better user experience.
 As I&nbsp;was onboarding as a&nbsp;new Frontend Engineer, I&nbsp;wasn't sure
 what the state of things was. There were dedicated individuals working with
 accessibility in mind. There was an evolving design system that was supposed to
-guarantee a&nbsp;good baseline.
-a&nbsp;<abbr title="Voluntary Product Accessibility Template">VPAT</abbr> was
-prepared for every major version. However, it became clear to me that there
-wasn't any designated person or a&nbsp;team who knew the whole picture. We
-didn't have any guardrails or automations filtering incoming regressions. For
-a&nbsp;big open-core project with hundreds of engineers and community
-contributions, we didn't have a&nbsp;way to improve accessibility in
-a&nbsp;sustainable way. That is what moved me to take all steps necessary to
-have the Product Accessibility Working Group become a&nbsp;reality.
+guarantee a&nbsp;good baseline,
+a&nbsp;<abbr title="Voluntary Product Accessibility Template">VPAT</abbr>
+(Voluntary Product Accessibility Template) was prepared for every major version.
+However, it became clear to me that there wasn't any designated person or
+a&nbsp;team who knew the whole picture. We didn't have any guardrails or
+automations filtering incoming regressions. For a&nbsp;big open-core project
+with hundreds of engineers and community contributions, we didn't have
+a&nbsp;way to improve accessibility in a&nbsp;sustainable way. That is what
+moved me to take all steps necessary to have the Product Accessibility Working
+Group become a&nbsp;reality.
 
 ## Choosing tools
 
@@ -47,15 +48,16 @@ axe-core, you can approach problems in many ways, like we did while testing our
 design system. Initially we opted for Cypress end-to-end tests with the
 cypress-axe plugin. Each component had to have test cases written for each
 variant and state to maximise the test coverage. Later on, we shifted towards
-a&nbsp; Storybook integration. Because having Storybook entries was in the
-definition of done for each component, we could take advantage of them and run
-the tests in a&nbsp; <abbr title="Continuous Integration">CI</abbr> job without
-a&nbsp;need to write any test cases.
+a&nbsp;Storybook test-runner integrated with axe-core. Because having Storybook
+entries was in the definition of done for each component, we could take
+advantage of them and run the tests in a&nbsp;
+<abbr title="Continuous Integration">CI</abbr> (Continuous Integration) job
+without a&nbsp;need to write any test cases.
 
-To speed up the adoption of automated tests, I&nbsp;reviewed available paid
-tools that let you connect your entire test suite and run accessibility checks
-on each test. It seemed a&nbsp;promising solution, one that required only some
-time for initial setup to see the effects.
+To speed up the adoption of automated tests in the main repository,
+I&nbsp;reviewed available paid tools that let you connect your entire test suite
+and run accessibility checks on each test. It seemed a&nbsp;promising solution,
+one that required only some time for initial setup to see the effects.
 
 However, you should know your own limitations as well as your tools. For
 example, is your testing library supported by the provider you are considering?
@@ -65,25 +67,25 @@ been using, instead of introducing new ones.
 
 ## Why the perfect test didn't fit
 
-Feature tests sounded like a&nbsp;great idea, because they included components
-from both
-<abbr title="<abbr>HTML</abbr> Abstraction Markup Language">HAML</abbr> and
-Vue.js files that made up the whole views of the application. We could then work
-around the lack of <abbr>HAML</abbr> tooling and some instances of elements
-composed in Ruby on Rails. Having feature tests would also make sure the
-integration of each design system component was tested. However, these tests are
-written around features and their functionality. There wasn’t an easy way to map
-how much of the UI&nbsp;is covered with them. Their loose structure also meant
-that one spec might exercise a&nbsp;single component, while another walks
-a&nbsp;flow across several views. In the end, some views were covered three
-times and others not at all.
+Feature tests sounded like a&nbsp;great idea for the application's monorepo,
+because they run against components from both
+<abbr title="HTML Abstraction Markup Language">HAML</abbr> (HTML Abstraction
+Markup Language) and Vue.js files that made up the whole views of the
+application. We could then work around the lack of <abbr>HAML</abbr> tooling and
+some instances of elements composed in Ruby on Rails. Having feature tests would
+also make sure the integration of each design system component was tested.
+However, these tests are written around features and their functionality. There
+wasn’t an easy way to map how much of the UI&nbsp;is covered with them. Their
+loose structure also meant that one spec might exercise a&nbsp;single component,
+while another walks a&nbsp;flow across several views. In the end, some views
+were covered three times and others not at all.
 
 The other complication was the variation in data&nbsp;samples and possible
 flakiness of tests. The feature tests are set up in a&nbsp;way, where the
-UI&nbsp;you test depends on the data&nbsp;each spec happens to create. To save
-on <abbr>CI</abbr> time, it often creates only the minimum information needed
-for the components to render. Which in turn further diminishes the coverage that
-is possible to achieve. a&nbsp;coupling of accessibility checks to functionality
+UI&nbsp;you test depends on the data each spec happens to create. To save on
+<abbr>CI</abbr> time, it often creates only the minimum information needed for
+the components to render. Which in turn further diminishes the coverage that is
+possible to achieve. a&nbsp;coupling of accessibility checks to functionality
 means that a&nbsp;failing test (flaky or not) might not reach the point when the
 accessibility check happens. It may simply never run. If any test case is
 quarantined, we lose our regression net.
@@ -92,7 +94,7 @@ These problems were compounded by the fact that the test output was disconnected
 from frontend components. Complex UI&nbsp;components that rendered into
 a&nbsp;series of general <abbr>HTML</abbr> elements made it harder to pinpoint
 where violations actually happened. Given that these feature tests were written
-in Ruby, but sat in a&nbsp; frontend toolkit, GitLab’s frontend engineers
+in Ruby, but sat in a&nbsp;frontend toolkit, GitLab’s frontend engineers
 struggled to adopt them and make them a&nbsp;part of their usual workflow. Sure,
 the tool had its limits, but ultimately it did not fit how our teams worked.
 
@@ -158,8 +160,8 @@ a&nbsp;violation.
       <td>advisory</td>
     </tr>
     <caption>
-      Source: Adapted from <a&nbsp;href="https://docs.gitlab.com/19.5/development/fe_guide/accessibility/#how-our-accessibility-tools-work-together" class="inline-link">Accessibility. How our accessibility tools work together</a&nbsp;href=>,
-      GitLab Docs, with an added Enforcement column, licensed under <a&nbsp;href="https://creativecommons.org/licenses/by-sa/4.0/" class="inline-link">CC BY-Sa&nbsp;4.0</a&nbsp;href=>.
+      Source: Adapted from <a href="https://docs.gitlab.com/19.5/development/fe_guide/accessibility/#how-our-accessibility-tools-work-together" class="inline-link">Accessibility. How our accessibility tools work together</a>,
+      GitLab Docs, with an added Enforcement column, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="inline-link">CC BY-SA 4.0</a>.
     </caption>
   </table>
 </div>
@@ -171,13 +173,15 @@ advantages.
 with quite a&nbsp;number of limitations. Because it works against source code,
 not rendered <abbr>HTML</abbr>, the number of violations it can find is even
 lower than what other automations offer. In case of more custom syntax, like
-<abbr>HAML</abbr>, it also has limited tool options. In addition, design system
-components need to be mapped to <abbr>HTML</abbr> elements for axeLinter, the
-<abbr>VS</abbr> Code extension. From my experience, mapping may not be adaptable
-enough to cover more flexible components. We made it the default recommended
-extension for the project, but we had to accept not all contributors would use
-it. Nonetheless, I&nbsp;have seen real results with new merge requests and code
-reviews referencing the findings of axeLinter in <abbr>VS</abbr> Code.
+<abbr>HAML</abbr>, it also has limited tool options. In addition,
+<a href="https://gitlab.com/gitlab-org/gitlab/-/blob/e5cb1a0ddf53ad9ae7b28b5ade7407d16fe5389f/axe-linter.yml">design
+system components need to be mapped</a> to <abbr>HTML</abbr> elements for
+axeLinter, the <abbr>VS</abbr> Code extension. From my experience, mapping may
+not be adaptable enough to cover more flexible components. We made it the
+default recommended extension for the project, but we had to accept not all
+contributors would use it. Nonetheless, I&nbsp;have seen real results with new
+merge requests and code reviews referencing the findings of axeLinter in
+<abbr>VS</abbr> Code.
 
 Our **Storybook layer** consisted of two instances, one in the design system and
 the other in the app's monorepo. This made sure we catch any violations as early
@@ -201,12 +205,12 @@ multi-step processes and dynamic content. Engineers could run them locally,
 while working on existing critical features. Feature tests can also run in the
 <abbr>CI</abbr>, blocking any newly found regressions. They can bridge the gap
 Storybook has - whether components put together and interactions between them
-create accessible pages and follow complex ARIa&nbsp;patterns. However, creating
-feature tests is a&nbsp;more elaborate process. It requires
-product-area&nbsp;knowledge. It is quite heavy on resources, like
-<abbr>CI</abbr> minutes or developers' time. It's not realistic to have
-a&nbsp;high coverage on this level, but the coverage you get is detailed and can
-run the checks after each scripted user interaction.
+create accessible pages and follow complex ARIA patterns. However, creating
+feature tests is a&nbsp;more elaborate process. It requires product-area
+knowledge. It is quite heavy on resources, like <abbr>CI</abbr> minutes or
+developers' time. It's not realistic to have a&nbsp;high coverage on this level,
+but the coverage you get is detailed and can run the checks after each scripted
+user interaction.
 
 The **axe DevTools browser extension** is a&nbsp;great tool for quickly scanning
 the whole page or its section during development of new features or fixing
@@ -223,8 +227,9 @@ package. The best option for GitLab was a&nbsp;Sitespeed setup that the frontend
 department already used to monitor the app’s performance. I&nbsp;extended it
 with an axe plugin. That gave us additional data, about how specific pages were
 doing in terms of accessibility over time. Using Sitespeed opens the option of
-integrating with Grafana&nbsp;dashboards or Slack integrations. I&nbsp;find it
-to be a&nbsp; good option for the whole company, rather than engineering. If
+integrating with Grafana dashboards or Slack integrations. I&nbsp;find it to be
+a&nbsp;good option for the product managers, engineering managers and other
+roles that coordinate accessibility improvements, rather than engineers only. If
 your company has done a&nbsp;complete audit and you have results per page URL,
 you can easily measure the effects of remediation efforts over time with
 a&nbsp;monitoring tool like that. But keep in mind that it measures the results
@@ -235,18 +240,18 @@ on a&nbsp;page load and misses any violations happening after user interactions.
 What all these layers of automations cannot do, is to see if the keyboard flow
 is right, what the experience is like with a&nbsp;screen reader or if the page
 makes sense as a&nbsp;whole. For that we need a&nbsp;person, to make sure we
-have the full picture. The human layer works at three speeds: daily code
-reviews, building documentation and training over time, and one-off
-accessibility days. This level is the one that needs time and knowledge. It also
+have the full picture. At GitLab, the human layer worked at three speeds: daily
+code reviews, one-off accessibility days, and building documentation and
+training over time. This level is the one that needs time and knowledge. It also
 occurs late in the process of development. This is why the automated layer is
 important, to lift some of that burden.
 
 As a&nbsp;maintainer of the GitLab codebase, I&nbsp;saw how much code reviews
 can speed up the adoption of the tools, but also the awareness about digital
 accessibility. I&nbsp;made sure every time I&nbsp;left feedback, I&nbsp;backed
-it up with a&nbsp;recording from a&nbsp; screen reader, a&nbsp;link to
-documentation or <abbr>WCAG</abbr> criteria&nbsp;and with the explanation, how
-the problem in the code translates to what people experience and which users are
+it up with a&nbsp;recording from a&nbsp;screen reader, a&nbsp;link to
+documentation or <abbr>WCAG</abbr> criteria and with the explanation, how the
+problem in the code translates to what people experience and which users are
 affected. I&nbsp;was proud every time someone else mentioned my comments in
 another review of theirs. The feedback got documented and no longer depended on
 individual subject matter experts.
@@ -255,7 +260,7 @@ There is a&nbsp;lot of accessibility training out there and it might be hard to
 choose the right thing for you. In a&nbsp;company with an already excellent
 engineering culture, a&nbsp;basic training won't do much. The introductory
 training we provided didn't gain much traction from engineering, though it was
-a&nbsp;great hit with the other departments. a&nbsp;custom course with examples
+a&nbsp;great hit with the other departments. A&nbsp;custom course with examples
 from real testers with disabilities made all the difference. Based on our
 automations and previous accessibility efforts, I&nbsp;was able to narrow down
 common patterns that needed more in-depth knowledge. Thanks to that, our course
@@ -267,8 +272,9 @@ improving the accessibility of our product. We had designers, frontend and
 backend engineers contributing to previously triaged and selected issues. As
 a&nbsp;result, not only did our application improve, but so did open source
 projects we depend on. Our engineers contributed to their codebases, making sure
-those violations were gone. Many of the 108 fixes resulted in improved
-components' patterns, additional documentation or complete component rewrites.
+those violations were gone. The 108 fixes from one such event resulted in
+improved components' patterns, additional documentation or complete component
+rewrites.
 
 ## What worked, what didn't, what I'd do differently
 
