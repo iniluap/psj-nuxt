@@ -24,7 +24,7 @@ I&nbsp;consolidated the apps’ tangled mounting points into
 [single entry points](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/233568){.inline-link}
 and
 [refactored the Vue Router path handling](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/233622){.inline-link},
-fixing stale route params that only appeared under Vue 3. I split the large
+fixing stale route params that only appeared under Vue 3. I&nbsp;split the large
 migration into smaller, reviewable merge requests.
 
 ::
@@ -43,13 +43,15 @@ migration into smaller, reviewable merge requests.
 
 <!-- prettier-ignore -->
 #description
-I&nbsp;worked on a&nbsp;major version upgrade of GitLab’s
-Storybook, followed by
-[adding the Storybook test-runner](https://gitlab.com/gitlab-org/gitlab/-/work_items/507448){.inline-link}
-to be used both locally and in CI/CD. This initiative allowed out-of-the-box
-automated accessibility testing on the component level and opened possibility to
+I&nbsp;[upgraded GitLab’s Storybook from version 6.5 to 7.6](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/174526){.inline-link}, fixed the runtime and Webpack
+issues it left after migration. I&nbsp;
+[added the Storybook test-runner](https://gitlab.com/gitlab-org/gitlab/-/work_items/507448){.inline-link}
+with an option to run locally and in CI/CD. This gave every component out-of-the-box automated
+accessibility checks and let us
 [guard each submitted merge request against regressions](https://gitlab.com/gitlab-org/gitlab/-/work_items/562323){.inline-link},
-providing short feedback loop for code authors and reviewers.
+providing short feedback loop for code authors and reviewers. Its first run
+surfaced 31+ stories with accessibility issues and 19 failing tests, which I&nbsp;triaged into
+four root causes with proposed fixes.
 
 ::
 
@@ -68,19 +70,18 @@ providing short feedback loop for code authors and reviewers.
 <!-- prettier-ignore -->
 #description
 I&nbsp;led the architectural initiative from
-[conception](https://gitlab.com/gitlab-org/gitlab/-/work_items/486950#note_2100423617){.inline-link}
-through
+[proposal](https://gitlab.com/gitlab-org/gitlab/-/work_items/486950#note_2100423617){.inline-link}
+to
 [implementation](https://gitlab.com/gitlab-org/gitlab/-/work_items/497051){.inline-link},
-managing complex codebase changes. This initiative addressed growing complexity
-in the repository header area&nbsp;by consolidating fragmented Vue.js
-applications.
+managing complex codebase changes. The result is a simpler,
+more maintainable codebase that unblocked future UX improvements and the upgrade
+to Vue 3.
 
-I&nbsp;coordinated 55 detailed technical discussions, managed 36 technical
-conversations over 42 days, and conducted
-[a&nbsp;major refactoring of file viewer controls](https://gitlab.com/gitlab-org/gitlab/-/work_items/450774){.inline-link}.
-
-I&nbsp;identified and proactively addressed cross-team dependencies to ensure
-successful implementation.
+I&nbsp;drove async technical discussions,
+[refactored the file viewer controls](https://gitlab.com/gitlab-org/gitlab/-/work_items/450774){.inline-link}, and
+found cross-team dependencies early. I&nbsp;turned the outcome of those discussions into a&nbsp;series of detailed issues covering
+immediate and future refactors for both frontend and backend engineers. I&nbsp;wrote the descriptions and grouped the issues
+into epics to show the timeline.
 
 ::
 
