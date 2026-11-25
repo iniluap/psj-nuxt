@@ -174,7 +174,7 @@ with quite a&nbsp;number of limitations. Because it works against source code,
 not rendered <abbr>HTML</abbr>, the number of violations it can find is even
 lower than what other automations offer. In case of more custom syntax, like
 <abbr>HAML</abbr>, it also has limited tool options. In addition,
-<a href="https://gitlab.com/gitlab-org/gitlab/-/blob/e5cb1a0ddf53ad9ae7b28b5ade7407d16fe5389f/axe-linter.yml">design
+<a class="inline-link" href="https://gitlab.com/gitlab-org/gitlab/-/blob/e5cb1a0ddf53ad9ae7b28b5ade7407d16fe5389f/axe-linter.yml">design
 system components need to be mapped</a> to <abbr>HTML</abbr> elements for
 axeLinter, the <abbr>VS</abbr> Code extension. From my experience, mapping may
 not be adaptable enough to cover more flexible components. We made it the
