@@ -33,7 +33,7 @@ tbody tr:nth-child(odd) th {
 
 th,
 td {
-  padding: 0.4rem 0.6rem;
+  padding: 0.4rem 1rem;
   vertical-align: top;
 }
 
@@ -48,6 +48,7 @@ tr th:nth-child(1) {
 
 caption {
   caption-side: bottom;
+  margin-top: var(--whitespace-secondary);
   padding: 1rem;
   font-size: 1.6rem;
 }
