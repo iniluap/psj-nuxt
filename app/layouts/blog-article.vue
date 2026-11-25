@@ -1,6 +1,16 @@
 <template>
   <main class="blog-article-layout">
     <slot />
+    <div class="content-container back-to-top-link">
+      <a
+        href="#article-hero-section"
+        class="back-link">
+        <Icon
+          name="mdi:arrow-top-circle"
+          aria-hidden="true" />
+        Back to the top
+      </a>
+    </div>
   </main>
 </template>
 
@@ -10,6 +20,7 @@
     grid-template-rows:
       [hero-start] minmax(min-content, 40vh)
       [content-start] auto
+      [content-end] auto
       [footer-start] minmax(6rem, min-content) [page-end];
     grid-template-columns:
       minmax(var(--whitespace-secondary), 1fr)
@@ -40,5 +51,9 @@
     @media screen and (min-width: 480px) {
       padding: 4rem;
     }
+  }
+
+  .back-to-top-link {
+    grid-row: content-end;
   }
 </style>

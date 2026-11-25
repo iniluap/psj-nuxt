@@ -82,6 +82,7 @@ h2 {
   .iconify {
     position: relative;
     left: 0;
+    top: 0;
     transition: var(--transition);
   }
 
@@ -90,6 +91,15 @@ h2 {
 
     .iconify {
       left: -0.25rem;
+    }
+  }
+
+  .back-to-top-link & {
+    &:hover {
+      .iconify {
+        top: -0.25rem;
+        left: 0;
+      }
     }
   }
 }
